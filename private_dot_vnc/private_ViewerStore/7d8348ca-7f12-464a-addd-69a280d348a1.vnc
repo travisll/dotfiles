@@ -1,0 +1,7 @@
+AuthCertificate=
+Encryption=PreferOff
+FriendlyName=idracvmhost010
+Host=10.9.225.101:5901
+Sequence="0"
+SingleSignOn=0
+Uuid=7d8348ca-7f12-464a-addd-69a280d348a1

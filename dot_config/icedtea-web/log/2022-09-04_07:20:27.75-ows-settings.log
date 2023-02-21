@@ -1,0 +1,318 @@
+[travisll][ITW-CORE][2022-09-04 07:20:27.155 CDT][INFO ][net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog][Output controller consumer daemon#56b986db] writer-based impl.
+[ITW-CORE][2022-09-04 07:20:27.072 CDT][DEBUG][net.adoptopenjdk.icedteaweb.logging.LoggerFactory] init logger factory to net.sourceforge.jnlp.util.logging.OutputControllerLoggerFactory@61e717c2
+[ITW-CORE][2022-09-04 07:20:27.075 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OpenWebStartLauncher called with args: [].
+[ITW-CORE][2022-09-04 07:20:27.075 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OS: Mac OS X
+[ITW-CORE][2022-09-04 07:20:27.075 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] Java Runtime BellSoft-1.8.0_332
+[ITW-CORE][2022-09-04 07:20:27.109 CDT][INFO ][com.openwebstart.launcher.ControlPanelLauncher] Starting OpenWebStart ControlPanel 1.6.0
+[ITW-CORE][2022-09-04 07:20:27.128 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-09-04 07:20:27.142 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-09-04 07:20:27.144 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-09-04 07:20:27.156 CDT][DEBUG][net.sourceforge.jnlp.util.logging.FileLog] Start logging into: net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog@5c8e646b
+[ITW-CORE][2022-09-04 07:20:27.155 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-09-04 07:20:27.163 CDT][DEBUG][com.openwebstart.launcher.InitialConfigurationCheck] Checking if installation time (1661046380050) is after last initial config time (1661046386579)
+[ITW-CORE][2022-09-04 07:20:27.181 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Trying to set download indicator
+[ITW-CORE][2022-09-04 07:20:27.182 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Setting download indicator to com.openwebstart.download.ApplicationDownloadIndicator@78ac1102
+[ITW-CORE][2022-09-04 07:20:27.198 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] Checking for update on server https://download-openwebstart.com/updates/updates.xml
+[ITW-CORE][2022-09-04 07:20:27.230 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] using com.openwebstart.extensionpoint.OwsExtensionPoint extension point
+[ITW-CORE][2022-09-04 07:20:27.285 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view RuntimeManagerPanel to control panel
+[ITW-CORE][2022-09-04 07:20:27.286 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view UpdatePanel to control panel
+[ITW-CORE][2022-09-04 07:20:27.286 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view OpenWebStartAboutPanel to control panel
+[ITW-CORE][2022-09-04 07:20:27.286 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view SimpleDesktopSettingsPanel to control panel
+[ITW-CORE][2022-09-04 07:20:27.287 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view ApplicationManagerPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.287 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view Logging to control panel
+[ITW-CORE][2022-09-04 07:20:27.287 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view ProxyConfig to control panel
+[ITW-CORE][2022-09-04 07:20:27.288 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view DebugOptions to control panel
+[ITW-CORE][2022-09-04 07:20:27.288 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view DebuggingPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.288 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view DesktopShortcutPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.289 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view JVMPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.289 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view NetworkSettingsPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.289 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view PolicyPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.290 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view SecuritySettingsPanel to control panel
+[ITW-CORE][2022-09-04 07:20:27.290 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view UnsignedAppletsTrustingListPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.290 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Won't add view AboutPanel to control panel since it is deactivated
+[ITW-CORE][2022-09-04 07:20:27.291 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view TemporaryInternetFilesPanel to control panel
+[ITW-CORE][2022-09-04 07:20:27.291 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view CertificatePane to control panel
+[ITW-CORE][2022-09-04 07:20:27.291 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.controlpanel.ControlPanel] Adding view ServerWhitelistPanel to control panel
+[ITW-APP ][2022-09-04 07:20:27.525 CDT][ERROR][sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)] Warning: the fonts "Times" and "Lucida Bright" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+[ITW-CORE][2022-09-04 07:20:27.548 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Loading runtime cache from filesystem
+[ITW-CORE][2022-09-04 07:20:27.548 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Clearing runtime cache
+[ITW-CORE][2022-09-04 07:20:27.643 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.cacerts exists.
+[ITW-CORE][2022-09-04 07:20:27.643 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2022-09-04 07:20:27.643 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2022-09-04 07:20:27.644 CDT][INFO ][net.adoptopenjdk.icedteaweb.client.certificateviewer.CertificatePane] /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2022-09-04 07:20:27.665 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] Checking for update on server https://download-openwebstart.com/updates/updates.xml
+[ITW-CORE][2022-09-04 07:20:28.185 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] No update found on server
+[ITW-CORE][2022-09-04 07:21:09.188 CDT][DEBUG][com.openwebstart.jvm.localfinder.JdkFinder] About to look for local JVMs at the following location: /Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home
+[ITW-CORE][2022-09-04 07:21:09.193 CDT][INFO ][com.openwebstart.jvm.ui.RuntimeManagerPanel] No local JVMs added to the JVM Manager
+[ITW-CORE][2022-09-04 07:21:12.460 CDT][INFO ][com.openwebstart.jvm.ui.RuntimeManagerPanel] Starting to search for local JVMs
+[ITW-CORE][2022-09-04 07:21:12.462 CDT][INFO ][com.openwebstart.jvm.ui.RuntimeManagerPanel] No local JVMs added to the JVM Manager
+[ITW-CORE][2022-09-04 07:21:41.835 CDT][DEBUG][com.openwebstart.jvm.localfinder.JdkFinder] About to look for local JVMs at the following location: /Users/travisll/.asdf/installs/java/adoptopenjdk-17.0.4+101
+[ITW-CORE][2022-09-04 07:21:41.838 CDT][INFO ][com.openwebstart.jvm.util.JavaRuntimePropertiesDetector] Trying to get definition of local JVM at '/Users/travisll/.asdf/installs/java/adoptopenjdk-17.0.4+101'
+[ITW-CORE][2022-09-04 07:21:41.921 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Adding runtime definition
+[ITW-CORE][2022-09-04 07:21:41.921 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Saving runtime cache to filesystem
+[ITW-CORE][2022-09-04 07:21:41.923 CDT][INFO ][com.openwebstart.jvm.ui.RuntimeManagerPanel] Added 1 local JVMs to the JVM Manager
+[ITW-CORE][2022-09-04 07:22:02.444 CDT][DEBUG][com.openwebstart.jvm.localfinder.JdkFinder] About to look for local JVMs at the following location: /Users/travisll/.asdf/installs/java/microsoft-17.0.4
+[ITW-CORE][2022-09-04 07:22:02.445 CDT][INFO ][com.openwebstart.jvm.util.JavaRuntimePropertiesDetector] Trying to get definition of local JVM at '/Users/travisll/.asdf/installs/java/microsoft-17.0.4'
+[ITW-CORE][2022-09-04 07:22:03.247 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Adding runtime definition
+[ITW-CORE][2022-09-04 07:22:03.247 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Saving runtime cache to filesystem
+[ITW-CORE][2022-09-04 07:22:03.248 CDT][INFO ][com.openwebstart.jvm.ui.RuntimeManagerPanel] Added 1 local JVMs to the JVM Manager
+[ITW-CORE][2022-09-04 07:22:17.392 CDT][DEBUG][com.openwebstart.jvm.localfinder.JdkFinder] About to look for local JVMs at the following location: /Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13
+[ITW-CORE][2022-09-04 07:22:17.392 CDT][INFO ][com.openwebstart.jvm.util.JavaRuntimePropertiesDetector] Trying to get definition of local JVM at '/Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13'
+[ITW-CORE][2022-09-04 07:22:17.394 CDT][INFO ][com.openwebstart.jvm.util.JavaRuntimePropertiesDetector] Trying to get definition of local JVM at '/Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13/zulu-18.jdk/Contents/Home'
+[ITW-CORE][2022-09-04 07:22:18.557 CDT][ERROR][com.openwebstart.jvm.ui.RuntimeManagerPanel]
+Error while adding local JDK at '/Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13'
+java.lang.IllegalStateException: Error while reading properties from JVM at '/Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13'
+	at com.openwebstart.jvm.localfinder.JdkFinder.getLocalJavaRuntime(JdkFinder.java:95)
+	at com.openwebstart.func.Result.lambda$withInput$2(Result.java:116)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at com.openwebstart.jvm.localfinder.JdkFinder.findLocalRuntimes(JdkFinder.java:62)
+	at com.openwebstart.jvm.ui.RuntimeManagerPanel.lambda$onAddLocalRuntime$16(RuntimeManagerPanel.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.IllegalStateException: found 0 java executables in /Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13
+	at com.openwebstart.jvm.util.JavaExecutableFinder.findJavaExecutable(JavaExecutableFinder.java:29)
+	at com.openwebstart.jvm.util.JavaRuntimePropertiesDetector.getProperties(JavaRuntimePropertiesDetector.java:54)
+	at com.openwebstart.jvm.localfinder.JdkFinder.getLocalJavaRuntime(JdkFinder.java:89)
+	... 19 more
+[ITW-CORE][2022-09-04 07:22:18.564 CDT][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2022-09-04 07:22:18.567 CDT][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2022-09-04 07:22:18.570 CDT][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2022-09-04 07:22:18.574 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Adding runtime definition
+[ITW-CORE][2022-09-04 07:22:18.574 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Saving runtime cache to filesystem
+[ITW-CORE][2022-09-04 07:22:18.576 CDT][INFO ][com.openwebstart.jvm.ui.RuntimeManagerPanel] Added 1 local JVMs to the JVM Manager
+[ITW-CORE][2022-09-04 07:22:23.637 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Loading runtime cache from filesystem
+[ITW-CORE][2022-09-04 07:22:23.637 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Clearing runtime cache
+[ITW-CORE][2022-09-04 07:22:24.207 CDT][DEBUG][com.openwebstart.jvm.RemoteRuntimeManager] Received 33 possible runtime definitions from server
+[ITW-CORE][2022-09-04 07:23:08.091 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Saving properties into /Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-09-04 07:23:08.091 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.launcher.rust.cp.remove' since its current value is its default value ('')
+[ITW-CORE][2022-09-04 07:23:08.091 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.launcher.rust.cp.remove'
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.assumeFileSystemInCodebase' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.assumeFileSystemInCodebase'
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.askgrantdialog.show' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.askgrantdialog.show'
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'deployment.log' with value ('true')
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log'
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.sandbox.awtwarningwindow' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.092 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.sandbox.awtwarningwindow'
+[ITW-CORE][2022-09-04 07:23:08.093 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.expired.warning' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.093 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.expired.warning'
+[ITW-CORE][2022-09-04 07:23:08.093 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.cachedir' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.093 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.cachedir'
+[ITW-CORE][2022-09-04 07:23:08.093 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.javapi.cache.enabled' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.093 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.javapi.cache.enabled'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.remote.debug.startSuspended' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.remote.debug.startSuspended'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.security.trusted.cacerts' since its current value is its default value ('/Users/travisll/.config/icedtea-web/security/trusted.cacerts')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.security.trusted.cacerts'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.small.size.threshold' since its current value is its default value ('10')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.small.size.threshold'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.jsse.hostmismatch.warning' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.jsse.hostmismatch.warning'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.connection.readTimeout' since its current value is its default value ('10000')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.connection.readTimeout'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.launcher.rust.cp.add' since its current value is its default value ('')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.launcher.rust.cp.add'
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'deployment.javaws.shortcut' with value ('ALWAYS')
+[ITW-CORE][2022-09-04 07:23:08.094 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.javaws.shortcut'
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.small.size.override.width' since its current value is its default value ('800')
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.small.size.override.width'
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'deployment.log.file' with value ('true')
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.file'
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.pac.cache' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.pac.cache'
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.server.default' since its current value is its default value ('https://download-openwebstart.com/jvms.json')
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.server.default'
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.connection.connectTimeout' since its current value is its default value ('10000')
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.connection.connectTimeout'
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.https.host' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.095 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.https.host'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.server.allowFromJnlp.whitelist' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.server.allowFromJnlp.whitelist'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.itw.disablerestrictedfiles' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.itw.disablerestrictedfiles'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.proxy.unsupportedFeature.showNotification' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.proxy.unsupportedFeature.showNotification'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.security.trusted.certs' since its current value is its default value ('/Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/trusted.certs')
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.security.trusted.certs'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.config' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.config'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.cachedir' since its current value is its default value ('/Users/travisll/.cache/icedtea-web/cache')
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.cachedir'
+[ITW-CORE][2022-09-04 07:23:08.096 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.log.system' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.system'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.override.hosts' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.override.hosts'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.jnlpclassloader.strict' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.jnlpclassloader.strict'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.updateStrategy' since its current value is its default value ('ASK_FOR_UPDATE_ON_LOCAL_MATCH')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.updateStrategy'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.manifest.attributes.check' since its current value is its default value ('ALL')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.manifest.attributes.check'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.remote.debug.randomDebugPort' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.remote.debug.randomDebugPort'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.socks.host' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.socks.host'
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.jvm.arguments.whitelist' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.097 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.jvm.arguments.whitelist'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.level' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.level'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.trusted.policy' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.trusted.policy'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.bypass.local' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.bypass.local'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.http.host' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.http.host'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.remote.debug.host' since its current value is its default value ('127.0.0.1')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.remote.debug.host'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.https.port' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.https.port'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.experimental.applicationManager.active' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.experimental.applicationManager.active'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.security.trusted.clientautcerts' since its current value is its default value ('/Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/trusted.clientcerts')
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.security.trusted.clientautcerts'
+[ITW-CORE][2022-09-04 07:23:08.098 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.pcachedir' since its current value is its default value ('/Users/travisll/.cache/icedtea-web/pcache')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.pcachedir'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.log.stdstreams' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.stdstreams'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.launcher.rust.bootcp.remove' since its current value is its default value ('')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.launcher.rust.bootcp.remove'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.runningfile' since its current value is its default value ('/var/folders/qv/zd44h42s6h5fj4q235rr1_3wzgxmhk/T/travisll/netx/locks/netx_running')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.runningfile'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.excludeDefaultSearchLocation' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.excludeDefaultSearchLocation'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.security.cacerts' since its current value is its default value ('/Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/cacerts')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.security.cacerts'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.log.file.clientapp' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.file.clientapp'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.maxDaysUnusedInJvmCache' since its current value is its default value ('30')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.maxDaysUnusedInJvmCache'
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.logdir' since its current value is its default value ('/Users/travisll/.config/icedtea-web/log')
+[ITW-CORE][2022-09-04 07:23:08.099 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.logdir'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.cache.max.size' since its current value is its default value ('-1')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.cache.max.size'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.javaws.update.timeout' since its current value is its default value ('500')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.javaws.update.timeout'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.https.noenforce' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.https.noenforce'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.javaws.associations' since its current value is its default value ('2')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.javaws.associations'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.cache.parallelDownloadCount' since its current value is its default value ('6')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.cache.parallelDownloadCount'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.update.strategy.settings' since its current value is its default value ('ON_EVERY_START')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.update.strategy.settings'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.http.port' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.http.port'
+[ITW-CORE][2022-09-04 07:23:08.100 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.askgrantdialog.notinca' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.askgrantdialog.notinca'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.security.jssecacerts' since its current value is its default value ('/Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/jssecacerts')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.security.jssecacerts'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.update.activated' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.update.activated'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.auto.config.url' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.auto.config.url'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'ows.jvm.manager.vendor.allowFromJnlp' with value ('true')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.vendor.allowFromJnlp'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.customSearchLocation' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.customSearchLocation'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.security.policy' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.security.policy'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.browser.path' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.browser.path'
+[ITW-CORE][2022-09-04 07:23:08.101 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.sandbox.jnlp.enhanced' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.sandbox.jnlp.enhanced'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.security.policy' since its current value is its default value ('file:///Users/travisll/.config/icedtea-web/security/java.policy')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.security.policy'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.cache.dir' since its current value is its default value ('/Users/travisll/.cache/icedtea-web/jvm-cache')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.cache.dir'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.security.trusted.jssecerts' since its current value is its default value ('/Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/trusted.jssecerts')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.security.trusted.jssecerts'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.notinca.warning' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.notinca.warning'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.security.trusted.jssecacerts' since its current value is its default value ('/Users/travisll/.config/icedtea-web/security/trusted.jssecacerts')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.security.trusted.jssecacerts'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.shortcut.update.strategy' since its current value is its default value ('OVERWRITE')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.shortcut.update.strategy'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.socks.port' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.socks.port'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'deployment.log.jnlpFileContent' with value ('true')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.jnlpFileContent'
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.security.trusted.jssecerts' since its current value is its default value ('/Users/travisll/.config/icedtea-web/security/trusted.jssecerts')
+[ITW-CORE][2022-09-04 07:23:08.102 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.security.trusted.jssecerts'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.small.size.override.height' since its current value is its default value ('600')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.small.size.override.height'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'ows.jvm.manager.server.allowFromJnlp' with value ('true')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.server.allowFromJnlp'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.javaws.autodownload' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.javaws.autodownload'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.remote.debug.enabled' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.remote.debug.enabled'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.tmp' since its current value is its default value ('/Users/travisll/.cache/icedtea-web/tmp')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.tmp'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'ows.install4j.propertyUpdate' with value ('1661046386579')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.install4j.propertyUpdate'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.searchLocalAtStartup' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.searchLocalAtStartup'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.versionRange' since its current value is its default value ('1.8+')
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.versionRange'
+[ITW-CORE][2022-09-04 07:23:08.103 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.same' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.same'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.security.trusted.certs' since its current value is its default value ('/Users/travisll/.config/icedtea-web/security/trusted.certs')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.security.trusted.certs'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.cache.cleanup' since its current value is its default value ('true')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.cache.cleanup'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.ftp.port' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.ftp.port'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.jvm.manager.vendor' since its current value is its default value ('*')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.jvm.manager.vendor'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'ows.update.strategy.launch' with value ('ON_EVERY_START')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.update.strategy.launch'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.whitelist' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.whitelist'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.security.trusted.clientauthcerts' since its current value is its default value ('/Users/travisll/.config/icedtea-web/security/trusted.clientcerts')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.security.trusted.clientauthcerts'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.bypass.list' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.bypass.list'
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.javaws.installURL' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.104 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.javaws.installURL'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.jre.dir' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.jre.dir'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'ows.remote.debug.fixedPort' since its current value is its default value ('5005')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'ows.remote.debug.fixedPort'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.headless.ignore' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.headless.ignore'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'deployment.proxy.type' with value ('0')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.type'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.user.locksdir' since its current value is its default value ('/var/folders/qv/zd44h42s6h5fj4q235rr1_3wzgxmhk/T/travisll/netx/locks')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.user.locksdir'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.plugin.jvm.arguments' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.plugin.jvm.arguments'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.proxy.ftp.host' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.proxy.ftp.host'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.system.config.mandatory' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.system.config.mandatory'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.launcher.rust.bootcp.add' since its current value is its default value ('null')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.launcher.rust.bootcp.add'
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.security.itw.ignorecertissues' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.105 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.security.itw.ignorecertissues'
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will save property 'deployment.console.startup.mode' with value ('SHOW')
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.console.startup.mode'
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.log.file.legacylog' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.file.legacylog'
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.log.headers' since its current value is its default value ('false')
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.log.headers'
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Won't save property 'deployment.cache.jarcompression' since its current value is its default value ('0')
+[ITW-CORE][2022-09-04 07:23:08.106 CDT][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Will not lock property 'deployment.cache.jarcompression'
+[ITW-CORE][2022-09-04 07:23:08.108 CDT][INFO ][net.sourceforge.jnlp.util.logging.OutputController] Increase polling interval for shutdown phase

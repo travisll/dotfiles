@@ -1,0 +1,184 @@
+[travisll][ITW-CORE][2022-09-11 10:35:56.493 CDT][INFO ][net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog][Output controller consumer daemon#12cbacb1] writer-based impl.
+[ITW-CORE][2022-09-11 10:35:56.310 CDT][DEBUG][net.adoptopenjdk.icedteaweb.logging.LoggerFactory] init logger factory to net.sourceforge.jnlp.util.logging.OutputControllerLoggerFactory@10f87f48
+[ITW-CORE][2022-09-11 10:35:56.361 CDT][INFO ][com.openwebstart.launcher.PhaseTwoWebStartLauncher] Starting OpenWebStart 1.6.0
+[ITW-CORE][2022-09-11 10:35:56.454 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-09-11 10:35:56.476 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-09-11 10:35:56.478 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-09-11 10:35:56.494 CDT][DEBUG][net.sourceforge.jnlp.util.logging.FileLog] Start logging into: net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog@3862062e
+[ITW-CORE][2022-09-11 10:35:56.493 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-09-11 10:35:56.495 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Trying to set download indicator
+[ITW-CORE][2022-09-11 10:35:56.495 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Setting download indicator to com.openwebstart.download.ApplicationDownloadIndicator@2b552920
+[ITW-CORE][2022-09-11 10:35:56.507 CDT][DEBUG][com.openwebstart.launcher.InitialConfigurationCheck] Checking if installation time (1661046380050) is after last initial config time (1661046386579)
+[ITW-CORE][2022-09-11 10:35:56.508 CDT][DEBUG][com.openwebstart.launcher.PhaseTwoWebStartLauncher] RelevantJavawsArgs: '[/Applications/admin.jnlp]'
+[ITW-CORE][2022-09-11 10:35:56.542 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] Checking for update on server https://download-openwebstart.com/updates/updates.xml
+[ITW-CORE][2022-09-11 10:35:57.551 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] No update found on server
+[ITW-CORE][2022-09-11 10:35:57.551 CDT][INFO ][com.openwebstart.launcher.PhaseTwoWebStartLauncher] Calling ITW Boot with args [/Applications/admin.jnlp].
+[ITW-CORE][2022-09-11 10:35:57.554 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OpenWebStartLauncher called with args: [/Applications/admin.jnlp].
+[ITW-CORE][2022-09-11 10:35:57.554 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OS: Mac OS X
+[ITW-CORE][2022-09-11 10:35:57.554 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] Java Runtime BellSoft-1.8.0_332
+[ITW-CORE][2022-09-11 10:35:57.556 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] using com.openwebstart.extensionpoint.OwsExtensionPoint extension point
+[ITW-APP ][2022-09-11 10:35:57.933 CDT][ERROR][sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)] Warning: the fonts "Times" and "Lucida Bright" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+[ITW-CORE][2022-09-11 10:35:58.096 CDT][DEBUG][net.adoptopenjdk.icedteaweb.client.parts.dialogs.security.SecurityDialogMessageHandler] Starting security dialog thread
+[ITW-CORE][2022-09-11 10:35:58.097 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.clientcerts exists.
+[ITW-CORE][2022-09-11 10:35:58.098 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2022-09-11 10:35:58.099 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2022-09-11 10:35:58.099 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/trusted.jssecerts does not exists.
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/trusted.certs does not exists.
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecerts exists.
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecerts
+[ITW-CORE][2022-09-11 10:35:58.100 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecerts
+[ITW-CORE][2022-09-11 10:35:58.101 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.certs exists.
+[ITW-CORE][2022-09-11 10:35:58.101 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.certs
+[ITW-CORE][2022-09-11 10:35:58.101 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.certs
+[ITW-CORE][2022-09-11 10:35:58.104 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/jssecacerts does not exists.
+[ITW-CORE][2022-09-11 10:35:58.104 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.104 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.104 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/cacerts exists.
+[ITW-CORE][2022-09-11 10:35:58.104 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/cacerts
+[ITW-CORE][2022-09-11 10:35:58.104 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/cacerts
+[ITW-CORE][2022-09-11 10:35:58.108 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts exists.
+[ITW-CORE][2022-09-11 10:35:58.108 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2022-09-11 10:35:58.108 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.cacerts exists.
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Applications/OpenWebStart/.install4j/jre.bundle/Contents/Home/lib/security/trusted.clientcerts does not exists.
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.clientcerts exists.
+[ITW-CORE][2022-09-11 10:35:58.109 CDT][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2022-09-11 10:35:58.110 CDT][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2022-09-11 10:35:58.111 CDT][DEBUG][com.openwebstart.proxy.WebStartProxySelector] Selected ProxyProvider : NONE 
+[ITW-CORE][2022-09-11 10:35:58.111 CDT][DEBUG][com.openwebstart.proxy.ProxyProviderType] Direct proxy created
+[ITW-CORE][2022-09-11 10:35:58.113 CDT][INFO ][net.sourceforge.jnlp.runtime.Boot] Proceeding with jnlp
+[ITW-CORE][2022-09-11 10:35:58.114 CDT][INFO ][net.sourceforge.jnlp.runtime.Boot] JNLP file location: /Applications/admin.jnlp
+[ITW-CORE][2022-09-11 10:35:58.115 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'file:/Applications/admin.jnlp'
+[ITW-CORE][2022-09-11 10:35:58.122 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Resource is not cacheable: admin.jnlp
+[ITW-CORE][2022-09-11 10:35:58.123 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2022-09-11 10:35:58.125 CDT][DEBUG][net.sourceforge.jnlp.JNLPFile] Parsing JNLP file
+location: file:/Applications/admin.jnlp
+codebase: null
+content:
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://isy.universal-devices.com/994i/5.3.3" href="admin.jnlp">
+<information>
+<title>ISY994 Administrative Console</title>
+<vendor>Universal Devices, Inc.</vendor>
+<description>Configuration Utility for ISY</description>
+<homepage href="https://www.universal-devices.com"/>
+<description kind="short">ISY Admin Console</description>
+<shortcut online="true"><desktop/><menu submenu="ISY994 Series"/></shortcut>
+<icon href="udlogo.png" kind="splash"/>
+<icon href="isy.jpg" />
+<offline-allowed/> 
+</information>
+<java version="1.7*" vendor="Microsoft"/>
+<security><all-permissions/></security>
+<update check="background" policy="always"/>
+<resources>
+<jar href="insteon.jar" download="eager"/>
+<jar href="ce.jar" download="lazy"/>
+<jar href="chart.jar" download="lazy"/>
+<jar href="fp.jar" download="lazy"/>
+<jar href="RXTX.jar" download="lazy"/>
+<j2se version="1.8+" />
+</resources>
+<application-desc main-class="com.universaldevices.client.ui.UDClientApplet">
+<argument>urn:udi-com:device:X_Insteon_Lighting_Device:1</argument>
+</application-desc></jnlp>
+[ITW-CORE][2022-09-11 10:35:58.130 CDT][INFO ][net.adoptopenjdk.icedteaweb.xmlparser.MalformedXMLParser] Using MalformedXMLParser
+[ITW-CORE][2022-09-11 10:35:58.371 CDT][INFO ][net.sourceforge.jnlp.Parser] Homepage: https://www.universal-devices.com
+[ITW-CORE][2022-09-11 10:35:58.371 CDT][INFO ][net.sourceforge.jnlp.Parser] Description: Configuration Utility for ISY
+[ITW-CORE][2022-09-11 10:35:58.371 CDT][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2022-09-11 10:35:58.371 CDT][INFO ][net.sourceforge.jnlp.JNLPFile] Acceptable vendor tag found, contains: Universal Devices, Inc.
+[ITW-CORE][2022-09-11 10:35:58.374 CDT][INFO ][net.sourceforge.jnlp.Parser] good - your JRE - 1.8.0_332 - match requested JRE - 1.8+
+[ITW-CORE][2022-09-11 10:35:58.376 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.3/admin.jnlp'
+[ITW-CORE][2022-09-11 10:35:58.461 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: admin.jnlp
+[ITW-CORE][2022-09-11 10:35:58.474 CDT][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp, version=null} = true
+[ITW-CORE][2022-09-11 10:35:58.474 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.3/admin.jnlp -> true
+[ITW-CORE][2022-09-11 10:35:58.475 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp v=null s=I]: [https://isy.universal-devices.com/994i/5.3.3/admin.jnlp]
+[ITW-CORE][2022-09-11 10:35:58.479 CDT][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.3/admin.jnlp
+[ITW-CORE][2022-09-11 10:35:58.479 CDT][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://isy.universal-devices.com:443
+[ITW-CORE][2022-09-11 10:35:58.677 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.3/admin.jnlp' header fields: {Accept-Ranges=[bytes], null=[HTTP/1.1 200 OK], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], Server=[nginx/1.20.0], ETag=["6045b6eb-451"], Connection=[keep-alive], Last-Modified=[Mon, 08 Mar 2021 05:32:27 GMT], Content-Length=[1105], Date=[Sun, 11 Sep 2022 15:35:58 GMT], Content-Type=[application/x-java-jnlp-file]}
+[ITW-CORE][2022-09-11 10:35:58.677 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp v=null s=I] is https://isy.universal-devices.com/994i/5.3.3/admin.jnlp by HEAD
+[ITW-CORE][2022-09-11 10:35:58.680 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp, version=null}: isCached true
+[ITW-CORE][2022-09-11 10:35:58.680 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp, version=null}: lastModified cache:1615181547000 actual:1615181547000 -> isCurrent = true
+[ITW-CORE][2022-09-11 10:35:58.680 CDT][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp, version=null} = true
+[ITW-CORE][2022-09-11 10:35:58.680 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.3/admin.jnlp -> false
+[ITW-CORE][2022-09-11 10:35:58.682 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.3/admin.jnlp v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/0/admin.jnlp
+[ITW-CORE][2022-09-11 10:35:58.682 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2022-09-11 10:35:58.682 CDT][DEBUG][net.sourceforge.jnlp.JNLPFile] Parsing JNLP file
+location: https://isy.universal-devices.com/994i/5.3.3/admin.jnlp
+codebase: null
+content:
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://isy.universal-devices.com/994i/5.3.3" href="admin.jnlp">
+<information>
+<title>ISY994 Administrative Console</title>
+<vendor>Universal Devices, Inc.</vendor>
+<description>Configuration Utility for ISY</description>
+<homepage href="https://www.universal-devices.com"/>
+<description kind="short">ISY Admin Console</description>
+<shortcut online="true"><desktop/><menu submenu="ISY994 Series"/></shortcut>
+<icon href="udlogo.png" kind="splash"/>
+<icon href="isy.jpg" />
+<offline-allowed/> 
+</information>
+<security><all-permissions/></security>
+<update check="background" policy="always"/>
+<resources>
+<jar href="insteon.jar" download="eager"/>
+<jar href="ce.jar" download="lazy"/>
+<jar href="chart.jar" download="lazy"/>
+<jar href="fp.jar" download="lazy"/>
+<jar href="RXTX.jar" download="lazy"/>
+<j2se version="1.8+" />
+</resources>
+<application-desc main-class="com.universaldevices.client.ui.UDClientApplet">
+<argument>urn:udi-com:device:X_Insteon_Lighting_Device:1</argument>
+</application-desc></jnlp>
+[ITW-CORE][2022-09-11 10:35:58.683 CDT][INFO ][net.adoptopenjdk.icedteaweb.xmlparser.MalformedXMLParser] Using MalformedXMLParser
+[ITW-CORE][2022-09-11 10:35:58.686 CDT][INFO ][net.sourceforge.jnlp.Parser] Homepage: https://www.universal-devices.com
+[ITW-CORE][2022-09-11 10:35:58.686 CDT][INFO ][net.sourceforge.jnlp.Parser] Description: Configuration Utility for ISY
+[ITW-CORE][2022-09-11 10:35:58.686 CDT][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2022-09-11 10:35:58.686 CDT][INFO ][net.sourceforge.jnlp.JNLPFile] Acceptable vendor tag found, contains: Universal Devices, Inc.
+[ITW-CORE][2022-09-11 10:35:58.686 CDT][INFO ][net.sourceforge.jnlp.Parser] good - your JRE - 1.8.0_332 - match requested JRE - 1.8+
+[ITW-CORE][2022-09-11 10:35:58.689 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Acquired shared lock on /var/folders/qv/zd44h42s6h5fj4q235rr1_3wzgxmhk/T/travisll/netx/locks/netx_running to indicate javaws is running
+[ITW-CORE][2022-09-11 10:35:58.689 CDT][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2022-09-11 10:35:58.689 CDT][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2022-09-11 10:35:58.691 CDT][DEBUG][net.sourceforge.jnlp.Launcher] Launching Application
+[ITW-CORE][2022-09-11 10:35:58.691 CDT][DEBUG][net.sourceforge.jnlp.services.ServiceUtil] call privileged method: checkSingleInstanceRunning
+[ITW-CORE][2022-09-11 10:35:58.691 CDT][DEBUG][net.sourceforge.jnlp.services.ServiceUtil] arg: net.sourceforge.jnlp.JNLPFile@36e6080a
+[ITW-CORE][2022-09-11 10:35:58.691 CDT][DEBUG][net.sourceforge.jnlp.services.ServiceUtil] result: null
+[ITW-CORE][2022-09-11 10:35:58.697 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Loading runtime cache from filesystem
+[ITW-CORE][2022-09-11 10:35:58.698 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Clearing runtime cache
+[ITW-CORE][2022-09-11 10:35:58.734 CDT][DEBUG][com.openwebstart.jvm.JavaRuntimeSelector] requested: JRE with version string '1.8+' and vendor '*', require 32 bit = false, from null
+[ITW-CORE][2022-09-11 10:35:58.734 CDT][DEBUG][com.openwebstart.jvm.JavaRuntimeSelector] Trying to find local Java runtime. Requested version: '1.8+', vendor: '*', os: 'MACARM64'
+[ITW-CORE][2022-09-11 10:35:58.734 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Trying to find local Java runtime. Requested version: '1.8+' Requested vendor: '*' requested os: 'MACARM64' active: 'true'
+[ITW-CORE][2022-09-11 10:35:58.735 CDT][DEBUG][com.openwebstart.jvm.JavaRuntimeSelector] Local runtime JavaRuntime{version=17.0.4, vendor=Microsoft, operationSystem=MACARM64} found but remote endpoint is checked for newer versions
+[ITW-CORE][2022-09-11 10:35:58.738 CDT][DEBUG][com.openwebstart.jvm.RemoteRuntimeManager] Trying to find remote Java runtime. Requested version: '1.8+' Requested vendor: '*' requested os: 'MACARM64'
+[ITW-CORE][2022-09-11 10:35:58.738 CDT][DEBUG][com.openwebstart.jvm.RemoteRuntimeManager] Endpoint to request for Java runtimes: https://download-openwebstart.com/jvms.json
+[ITW-CORE][2022-09-11 10:35:58.739 CDT][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://download-openwebstart.com/jvms.json
+[ITW-CORE][2022-09-11 10:35:58.739 CDT][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://download-openwebstart.com:443
+[ITW-CORE][2022-09-11 10:35:59.327 CDT][DEBUG][com.openwebstart.jvm.RemoteRuntimeManager] Received 33 possible runtime definitions from server
+[ITW-CORE][2022-09-11 10:35:59.333 CDT][DEBUG][com.openwebstart.jvm.JavaRuntimeSelector] No newer version was installed
+[ITW-CORE][2022-09-11 10:35:59.333 CDT][DEBUG][com.openwebstart.launcher.OwsJvmLauncher] Found JVM JavaRuntime{version=17.0.4, vendor=Microsoft, operationSystem=MACARM64}
+[ITW-CORE][2022-09-11 10:35:59.334 CDT][INFO ][com.openwebstart.launcher.OwsJvmLauncher] using java runtime at '/Users/travisll/.asdf/installs/java/microsoft-17.0.4' for launching managed application
+[ITW-CORE][2022-09-11 10:35:59.341 CDT][DEBUG][com.openwebstart.jvm.LocalRuntimeManager] Runtime cache is currently read only, not saving.
+[ITW-CORE][2022-09-11 10:35:59.342 CDT][INFO ][com.openwebstart.launcher.OwsJvmLauncher] About to launch process with command:
+/Users/travisll/.asdf/installs/java/microsoft-17.0.4/bin/java -Xbootclasspath/a:/Applications/OpenWebStart/openwebstart.jar --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED,java.desktop --add-exports=java.base/jdk.internal.util.jar=ALL-UNNAMED,java.desktop --add-exports=java.base/com.sun.net.ssl.internal.ssl=ALL-UNNAMED,java.desktop --add-reads=java.naming=ALL-UNNAMED,java.desktop --add-exports=java.desktop/sun.awt.X11=ALL-UNNAMED,java.desktop --add-exports=java.desktop/sun.applet=ALL-UNNAMED,java.desktop,jdk.jsobject --add-exports=java.base/sun.security.action=ALL-UNNAMED,java.desktop --add-reads=java.base=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED,java.desktop --add-exports=java.naming/com.sun.jndi.toolkit.url=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.util=ALL-UNNAMED,java.desktop --add-reads=java.desktop=ALL-UNNAMED,java.naming --add-exports=java.desktop/sun.awt=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.x509=ALL-UNNAMED,java.desktop --add-exports=java.desktop/javax.jnlp=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.provider=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.validator=ALL-UNNAMED,java.desktop net.sourceforge.jnlp.runtime.Boot -Xnofork /Applications/admin.jnlp
+[ITW-CORE][2022-09-11 18:07:46.273 CDT][DEBUG][net.sourceforge.jnlp.runtime.Boot] Exiting Boot.mainWithReturnCode() with 0
+[ITW-CORE][2022-09-11 18:07:46.274 CDT][INFO ][net.sourceforge.jnlp.util.logging.OutputController] Increase polling interval for shutdown phase
+[ITW-CORE][2022-09-11 18:07:46.274 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Releasing shared lock on /var/folders/qv/zd44h42s6h5fj4q235rr1_3wzgxmhk/T/travisll/netx/locks/netx_running
+[ITW-CORE][2022-09-11 18:07:46.274 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Closing channel
+[ITW-CORE][2022-09-11 18:07:46.274 CDT][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Releasing done
+[ITW-CORE][2022-09-11 18:07:46.274 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] preparing to cleanup the cache
+[ITW-CORE][2022-09-11 18:07:46.275 CDT][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] No other instances of javaws are running
+[ITW-CORE][2022-09-11 18:07:46.275 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] cleanup cache
+[ITW-CORE][2022-09-11 18:07:46.276 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] start cleaning the cache
+[ITW-CORE][2022-09-11 18:07:46.285 CDT][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] done cleaning the cache

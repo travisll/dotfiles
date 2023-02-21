@@ -1,0 +1,18 @@
+[user]
+	name = Travis Llewellyn
+	email = travisll@travisandtrish.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/travisll/.gitignore
+[alias]
+  co = checkout                     # git co my-branch
+  po = pull origin                  # git po my-branch
+  pso = push origin                 # git pso my-branch
+  cm = commit -m                    # git cm "your commit message"
+  br = branch                       # git br -D my-branch
+  st = status                       # git st
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+                                    # git hist
+  dns = diff --ignore-space-change  # git dns (dns stands for diff no space)
+  dc = diff --cached                # git dc

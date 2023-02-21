@@ -1,0 +1,431 @@
+[travisll][ITW-CORE][2023-01-29 07:40:23.618 CST][INFO ][net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog][Output controller consumer daemon#611127fa] writer-based impl.
+[ITW-CORE][2023-01-29 07:40:23.208 CST][DEBUG][net.adoptopenjdk.icedteaweb.logging.LoggerFactory] init logger factory to net.sourceforge.jnlp.util.logging.OutputControllerLoggerFactory@7382f612
+[ITW-CORE][2023-01-29 07:40:23.224 CST][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OpenWebStartLauncher called with args: [-Xnofork, /Applications/admin.jnlp].
+[ITW-CORE][2023-01-29 07:40:23.224 CST][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OS: Mac OS X
+[ITW-CORE][2023-01-29 07:40:23.224 CST][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] Java Runtime Eclipse Adoptium-17.0.5
+[ITW-CORE][2023-01-29 07:40:23.229 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] using com.openwebstart.extensionpoint.OwsExtensionPoint extension point
+[ITW-CORE][2023-01-29 07:40:23.321 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Begin JNLPRuntime.initialize()
+[ITW-CORE][2023-01-29 07:40:23.571 CST][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2023-01-29 07:40:23.571 CST][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] Start DeploymentConfiguration.load()
+[ITW-CORE][2023-01-29 07:40:23.581 CST][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2023-01-29 07:40:23.605 CST][DEBUG][net.sourceforge.jnlp.config.DeploymentConfiguration] End DeploymentConfiguration.load()
+[ITW-CORE][2023-01-29 07:40:23.618 CST][DEBUG][net.sourceforge.jnlp.util.logging.FileLog] Start logging into: net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog@1139d502
+[ITW-CORE][2023-01-29 07:40:23.621 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Start get JavaPolicy
+[ITW-CORE][2023-01-29 07:40:23.629 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPPolicy] Begin getPolicyFromUrl(null)
+[ITW-CORE][2023-01-29 07:40:23.629 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPPolicy] End getPolicyFromUrl()
+[ITW-CORE][2023-01-29 07:40:23.629 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPPolicy] Begin getPolicyFromUrl(file:///Users/travisll/.config/icedtea-web/security/java.policy)
+[ITW-CORE][2023-01-29 07:40:23.629 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPPolicy] Start Policy.getInstance(file:/Users/travisll/.config/icedtea-web/security/java.policy)
+[ITW-CORE][2023-01-29 07:40:23.638 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPPolicy] End Policy.getInstance(file:/Users/travisll/.config/icedtea-web/security/java.policy)
+[ITW-CORE][2023-01-29 07:40:23.638 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPPolicy] End getPolicyFromUrl()
+[ITW-CORE][2023-01-29 07:40:23.639 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Finished get JavaPolicy
+[ITW-CORE][2023-01-29 07:40:24.154 CST][DEBUG][net.adoptopenjdk.icedteaweb.client.parts.dialogs.security.SecurityDialogMessageHandler] Starting security dialog thread
+[ITW-CORE][2023-01-29 07:40:24.154 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Started Security Thread
+[ITW-CORE][2023-01-29 07:40:24.206 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.clientcerts exists.
+[ITW-CORE][2023-01-29 07:40:24.206 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2023-01-29 07:40:24.207 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2023-01-29 07:40:24.207 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/trusted.jssecerts does not exists.
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/trusted.certs does not exists.
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.208 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecerts exists.
+[ITW-CORE][2023-01-29 07:40:24.209 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecerts
+[ITW-CORE][2023-01-29 07:40:24.209 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecerts
+[ITW-CORE][2023-01-29 07:40:24.209 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.certs exists.
+[ITW-CORE][2023-01-29 07:40:24.209 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.certs
+[ITW-CORE][2023-01-29 07:40:24.209 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.certs
+[ITW-CORE][2023-01-29 07:40:24.221 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/jssecacerts does not exists.
+[ITW-CORE][2023-01-29 07:40:24.221 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.221 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.221 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts exists.
+[ITW-CORE][2023-01-29 07:40:24.221 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts
+[ITW-CORE][2023-01-29 07:40:24.221 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts
+[ITW-CORE][2023-01-29 07:40:24.244 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts exists.
+[ITW-CORE][2023-01-29 07:40:24.244 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2023-01-29 07:40:24.244 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2023-01-29 07:40:24.245 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.cacerts exists.
+[ITW-CORE][2023-01-29 07:40:24.245 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2023-01-29 07:40:24.245 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2023-01-29 07:40:24.245 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/trusted.clientcerts does not exists.
+[ITW-CORE][2023-01-29 07:40:24.245 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.246 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:24.246 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.clientcerts exists.
+[ITW-CORE][2023-01-29 07:40:24.246 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2023-01-29 07:40:24.246 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.clientcerts
+[ITW-CORE][2023-01-29 07:40:24.248 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Start Proxy Selector
+[ITW-CORE][2023-01-29 07:40:24.250 CST][DEBUG][com.openwebstart.proxy.WebStartProxySelector] Selected ProxyProvider : NONE 
+[ITW-CORE][2023-01-29 07:40:24.250 CST][DEBUG][com.openwebstart.proxy.ProxyProviderType] Direct proxy created
+[ITW-CORE][2023-01-29 07:40:24.250 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Finished Proxy Selector
+[ITW-CORE][2023-01-29 07:40:24.251 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] End JNLPRuntime.initialize()
+[ITW-CORE][2023-01-29 07:40:24.251 CST][INFO ][net.sourceforge.jnlp.runtime.Boot] Proceeding with jnlp
+[ITW-CORE][2023-01-29 07:40:24.251 CST][INFO ][net.sourceforge.jnlp.runtime.Boot] JNLP file location: /Applications/admin.jnlp
+[ITW-CORE][2023-01-29 07:40:24.252 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'file:/Applications/admin.jnlp'
+[ITW-CORE][2023-01-29 07:40:24.260 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Resource is not cacheable: admin.jnlp
+[ITW-CORE][2023-01-29 07:40:24.261 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:24.262 CST][DEBUG][net.sourceforge.jnlp.JNLPFile] Parsing JNLP file
+location: file:/Applications/admin.jnlp
+codebase: null
+content:
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://isy.universal-devices.com/994i/5.3.4" href="admin.jnlp">
+<information>
+<title>ISY994 Administrative Console</title>
+<vendor>Universal Devices, Inc.</vendor>
+<description>Configuration Utility for ISY</description>
+<homepage href="https://www.universal-devices.com"/>
+<description kind="short">ISY Admin Console</description>
+<shortcut online="true"><desktop/><menu submenu="ISY994 Series"/></shortcut>
+<icon href="udlogo.png" kind="splash"/>
+<icon href="isy.jpg" />
+<offline-allowed/> 
+</information>
+<security><all-permissions/></security>
+<update check="background" policy="always"/>
+<resources>
+<jar href="insteon.jar" download="eager"/>
+<jar href="ce.jar" download="lazy"/>
+<jar href="chart.jar" download="lazy"/>
+<jar href="fp.jar" download="lazy"/>
+<jar href="RXTX.jar" download="lazy"/>
+<j2se version="1.8+" />
+</resources>
+<application-desc main-class="com.universaldevices.client.ui.UDClientApplet">
+<argument>urn:udi-com:device:X_Insteon_Lighting_Device:1</argument>
+</application-desc></jnlp>
+[ITW-CORE][2023-01-29 07:40:24.264 CST][INFO ][net.adoptopenjdk.icedteaweb.xmlparser.MalformedXMLParser] Using MalformedXMLParser
+[ITW-CORE][2023-01-29 07:40:24.363 CST][INFO ][net.sourceforge.jnlp.Parser] Homepage: https://www.universal-devices.com
+[ITW-CORE][2023-01-29 07:40:24.363 CST][INFO ][net.sourceforge.jnlp.Parser] Description: Configuration Utility for ISY
+[ITW-CORE][2023-01-29 07:40:24.363 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2023-01-29 07:40:24.363 CST][INFO ][net.sourceforge.jnlp.JNLPFile] Acceptable vendor tag found, contains: Universal Devices, Inc.
+[ITW-CORE][2023-01-29 07:40:24.365 CST][INFO ][net.sourceforge.jnlp.Parser] good - your JRE - 17.0.5 - match requested JRE - 1.8+
+[ITW-CORE][2023-01-29 07:40:24.366 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/admin.jnlp'
+[ITW-CORE][2023-01-29 07:40:24.376 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: admin.jnlp
+[ITW-CORE][2023-01-29 07:40:24.383 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.384 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.4/admin.jnlp -> true
+[ITW-CORE][2023-01-29 07:40:24.384 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/admin.jnlp]
+[ITW-CORE][2023-01-29 07:40:24.387 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/admin.jnlp
+[ITW-CORE][2023-01-29 07:40:24.442 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://isy.universal-devices.com:443
+[ITW-CORE][2023-01-29 07:40:24.617 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/admin.jnlp' header fields: {null=[HTTP/1.1 200 OK], X-Cache=[Hit from cloudfront], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], Last-Modified=[Thu, 08 Jul 2021 16:49:20 GMT], Date=[Sat, 28 Jan 2023 19:49:13 GMT], Via=[1.1 a6ee338f3d3ecb97be8107e29130eb26.cloudfront.net (CloudFront)], Accept-Ranges=[bytes], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], ETag=["60e72c90-451"], X-Amz-Cf-Id=[rAgEGRTBMmydVeC7qhgHpFivkpmgRjcRb0RX_2MMI4zLaXaRolu18w==], Content-Length=[1105], Age=[64271], Content-Type=[application/x-java-jnlp-file]}
+[ITW-CORE][2023-01-29 07:40:24.617 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp v=null s=I] is https://isy.universal-devices.com/994i/5.3.4/admin.jnlp by HEAD
+[ITW-CORE][2023-01-29 07:40:24.619 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp, version=null}: isCached true
+[ITW-CORE][2023-01-29 07:40:24.619 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp, version=null}: lastModified cache:1625762960000 actual:1625762960000 -> isCurrent = true
+[ITW-CORE][2023-01-29 07:40:24.619 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.619 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.4/admin.jnlp -> false
+[ITW-CORE][2023-01-29 07:40:24.621 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.4/admin.jnlp v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/12/admin.jnlp
+[ITW-CORE][2023-01-29 07:40:24.621 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:24.621 CST][DEBUG][net.sourceforge.jnlp.JNLPFile] Parsing JNLP file
+location: https://isy.universal-devices.com/994i/5.3.4/admin.jnlp
+codebase: null
+content:
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://isy.universal-devices.com/994i/5.3.4" href="admin.jnlp">
+<information>
+<title>ISY994 Administrative Console</title>
+<vendor>Universal Devices, Inc.</vendor>
+<description>Configuration Utility for ISY</description>
+<homepage href="https://www.universal-devices.com"/>
+<description kind="short">ISY Admin Console</description>
+<shortcut online="true"><desktop/><menu submenu="ISY994 Series"/></shortcut>
+<icon href="udlogo.png" kind="splash"/>
+<icon href="isy.jpg" />
+<offline-allowed/> 
+</information>
+<security><all-permissions/></security>
+<update check="background" policy="always"/>
+<resources>
+<jar href="insteon.jar" download="eager"/>
+<jar href="ce.jar" download="lazy"/>
+<jar href="chart.jar" download="lazy"/>
+<jar href="fp.jar" download="lazy"/>
+<jar href="RXTX.jar" download="lazy"/>
+<j2se version="1.8+" />
+</resources>
+<application-desc main-class="com.universaldevices.client.ui.UDClientApplet">
+<argument>urn:udi-com:device:X_Insteon_Lighting_Device:1</argument>
+</application-desc></jnlp>
+[ITW-CORE][2023-01-29 07:40:24.622 CST][INFO ][net.adoptopenjdk.icedteaweb.xmlparser.MalformedXMLParser] Using MalformedXMLParser
+[ITW-CORE][2023-01-29 07:40:24.625 CST][INFO ][net.sourceforge.jnlp.Parser] Homepage: https://www.universal-devices.com
+[ITW-CORE][2023-01-29 07:40:24.625 CST][INFO ][net.sourceforge.jnlp.Parser] Description: Configuration Utility for ISY
+[ITW-CORE][2023-01-29 07:40:24.625 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2023-01-29 07:40:24.625 CST][INFO ][net.sourceforge.jnlp.JNLPFile] Acceptable vendor tag found, contains: Universal Devices, Inc.
+[ITW-CORE][2023-01-29 07:40:24.626 CST][INFO ][net.sourceforge.jnlp.Parser] good - your JRE - 17.0.5 - match requested JRE - 1.8+
+[ITW-CORE][2023-01-29 07:40:24.626 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Acquired shared lock on /var/folders/qv/zd44h42s6h5fj4q235rr1_3wzgxmhk/T/travisll/netx/locks/netx_running to indicate javaws is running
+[ITW-CORE][2023-01-29 07:40:24.627 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2023-01-29 07:40:24.627 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2023-01-29 07:40:24.629 CST][DEBUG][net.sourceforge.jnlp.Launcher] Launching Application
+[ITW-CORE][2023-01-29 07:40:24.629 CST][DEBUG][net.sourceforge.jnlp.services.ServiceUtil] call privileged method: checkSingleInstanceRunning
+[ITW-CORE][2023-01-29 07:40:24.629 CST][DEBUG][net.sourceforge.jnlp.services.ServiceUtil] arg: net.sourceforge.jnlp.JNLPFile@1446b12d
+[ITW-CORE][2023-01-29 07:40:24.629 CST][DEBUG][net.sourceforge.jnlp.services.ServiceUtil] result: null
+[ITW-CORE][2023-01-29 07:40:24.629 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/udlogo.png'
+[ITW-CORE][2023-01-29 07:40:24.630 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Prefetching resource udlogo.png
+[ITW-CORE][2023-01-29 07:40:24.630 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: udlogo.png
+[ITW-CORE][2023-01-29 07:40:24.632 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/udlogo.png, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.633 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.4/udlogo.png -> true
+[ITW-CORE][2023-01-29 07:40:24.633 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/udlogo.png v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/udlogo.png]
+[ITW-CORE][2023-01-29 07:40:24.634 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/udlogo.png
+[ITW-CORE][2023-01-29 07:40:24.750 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/udlogo.png' header fields: {null=[HTTP/1.1 200 OK], X-Cache=[Miss from cloudfront], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], Last-Modified=[Thu, 08 Jul 2021 16:49:33 GMT], Date=[Sun, 29 Jan 2023 13:40:24 GMT], Via=[1.1 a6ee338f3d3ecb97be8107e29130eb26.cloudfront.net (CloudFront)], Accept-Ranges=[bytes], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], ETag=["60e72c9d-a18e"], X-Amz-Cf-Id=[UGJeCjBhZ5d3L9kRKOrIm5exf-4wnFHP2D5m6E_uzGDF5R62R3y7LA==], Content-Length=[41358], Content-Type=[image/png]}
+[ITW-CORE][2023-01-29 07:40:24.750 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.4/udlogo.png v=null s=I] is https://isy.universal-devices.com/994i/5.3.4/udlogo.png by HEAD
+[ITW-CORE][2023-01-29 07:40:24.751 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/udlogo.png, version=null}: isCached true
+[ITW-CORE][2023-01-29 07:40:24.751 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/udlogo.png, version=null}: lastModified cache:1625762973000 actual:1625762973000 -> isCurrent = true
+[ITW-CORE][2023-01-29 07:40:24.751 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/udlogo.png, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.751 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.4/udlogo.png -> false
+[ITW-CORE][2023-01-29 07:40:24.753 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.4/udlogo.png v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/13/udlogo.png
+[ITW-CORE][2023-01-29 07:40:24.753 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:24.772 CST][INFO ][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] New classloader: https://isy.universal-devices.com/994i/5.3.4/admin.jnlp
+[ITW-CORE][2023-01-29 07:40:24.773 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/insteon.jar'
+[ITW-CORE][2023-01-29 07:40:24.773 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Prefetching resource insteon.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/ce.jar'
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Prefetching resource ce.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: insteon.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/chart.jar'
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: ce.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Prefetching resource chart.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: chart.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Prefetching resource fp.jar
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Create resource for 'https://isy.universal-devices.com/994i/5.3.4/RXTX.jar'
+[ITW-CORE][2023-01-29 07:40:24.774 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: fp.jar
+[ITW-CORE][2023-01-29 07:40:24.775 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Prefetching resource RXTX.jar
+[ITW-CORE][2023-01-29 07:40:24.775 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceHandler] Start processing resource: RXTX.jar
+[ITW-CORE][2023-01-29 07:40:24.775 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesReader] Jars not ready to provide attribute Application-Name
+[ITW-CORE][2023-01-29 07:40:24.775 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener for ISY994 Administrative Console will be created
+[ITW-CORE][2023-01-29 07:40:24.775 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/insteon.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.777 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/ce.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.781 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/chart.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.781 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/fp.jar, version=null} = false
+[ITW-CORE][2023-01-29 07:40:24.781 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/fp.jar v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/fp.jar]
+[ITW-CORE][2023-01-29 07:40:24.782 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:24.783 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isCached: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.783 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.4/insteon.jar -> true
+[ITW-CORE][2023-01-29 07:40:24.783 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/insteon.jar v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/insteon.jar]
+[ITW-CORE][2023-01-29 07:40:24.783 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/insteon.jar
+[ITW-CORE][2023-01-29 07:40:24.783 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://isy.universal-devices.com:443
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.4/ce.jar -> true
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/ce.jar v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/ce.jar]
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/ce.jar
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://isy.universal-devices.com:443
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.4/chart.jar -> true
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/chart.jar v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/chart.jar]
+[ITW-CORE][2023-01-29 07:40:24.784 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/chart.jar
+[ITW-CORE][2023-01-29 07:40:24.785 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://isy.universal-devices.com:443
+[ITW-CORE][2023-01-29 07:40:24.785 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdateCheck: https://isy.universal-devices.com/994i/5.3.4/RXTX.jar -> true
+[ITW-CORE][2023-01-29 07:40:24.785 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Candidate URLs for [l=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar v=null s=I]: [https://isy.universal-devices.com/994i/5.3.4/RXTX.jar]
+[ITW-CORE][2023-01-29 07:40:24.785 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/RXTX.jar
+[ITW-CORE][2023-01-29 07:40:24.785 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://isy.universal-devices.com:443
+[ITW-CORE][2023-01-29 07:40:24.911 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/ce.jar' header fields: {null=[HTTP/1.1 200 OK], X-Cache=[Hit from cloudfront], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], Last-Modified=[Thu, 08 Jul 2021 16:49:21 GMT], Date=[Sun, 29 Jan 2023 03:32:24 GMT], Via=[1.1 0bcd0e379c9cf8a77e6550e0c70cfaf8.cloudfront.net (CloudFront)], Accept-Ranges=[bytes], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], ETag=["60e72c91-1bb92"], X-Amz-Cf-Id=[GTnAjyJP7L6j0JM8KOsupghLLiRhL0_WhV9F5Yxfc2ffO3znm3x_5A==], Content-Length=[113554], Age=[36480], Content-Type=[application/java-archive]}
+[ITW-CORE][2023-01-29 07:40:24.911 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.4/ce.jar v=null s=I] is https://isy.universal-devices.com/994i/5.3.4/ce.jar by HEAD
+[ITW-CORE][2023-01-29 07:40:24.913 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/ce.jar, version=null}: isCached true
+[ITW-CORE][2023-01-29 07:40:24.913 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/ce.jar, version=null}: lastModified cache:1625762961000 actual:1625762961000 -> isCurrent = true
+[ITW-CORE][2023-01-29 07:40:24.913 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/ce.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.913 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.4/ce.jar -> false
+[ITW-CORE][2023-01-29 07:40:24.915 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.4/ce.jar v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/15/ce.jar
+[ITW-CORE][2023-01-29 07:40:24.921 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/insteon.jar' header fields: {null=[HTTP/1.1 200 OK], X-Cache=[Hit from cloudfront], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], Last-Modified=[Thu, 08 Jul 2021 16:49:30 GMT], Date=[Sat, 28 Jan 2023 20:12:31 GMT], Via=[1.1 f9c71f0b3d7efb64e79543064c9e0bdc.cloudfront.net (CloudFront)], Accept-Ranges=[bytes], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], ETag=["60e72c9a-4132c8"], X-Amz-Cf-Id=[I_SLKyyYxRcXUsTZKRwm8aD6LuVk4syAzt-u5wa-mmkJsxcdraqMGw==], Content-Length=[4272840], Age=[62873], Content-Type=[application/java-archive]}
+[ITW-CORE][2023-01-29 07:40:24.922 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.4/insteon.jar v=null s=I] is https://isy.universal-devices.com/994i/5.3.4/insteon.jar by HEAD
+[ITW-CORE][2023-01-29 07:40:24.924 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/insteon.jar, version=null}: isCached true
+[ITW-CORE][2023-01-29 07:40:24.924 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/insteon.jar, version=null}: lastModified cache:1625762970000 actual:1625762970000 -> isCurrent = true
+[ITW-CORE][2023-01-29 07:40:24.924 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/insteon.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.925 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.4/insteon.jar -> false
+[ITW-CORE][2023-01-29 07:40:24.929 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.4/insteon.jar v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/11/insteon.jar
+[ITW-CORE][2023-01-29 07:40:24.929 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:24.929 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener will be disposed
+[ITW-CORE][2023-01-29 07:40:24.935 CST][DEBUG][net.adoptopenjdk.icedteaweb.http.HttpUtils]
+Following exception should be harmless, but may help in finding root cause.
+java.io.FileNotFoundException: https://isy.universal-devices.com/994i/5.3.4/fp.jar
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1579)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.base/java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:962)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1578)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at net.adoptopenjdk.icedteaweb.http.CloseableConnection.getInputStream(CloseableConnection.java:58)
+	at net.adoptopenjdk.icedteaweb.http.HttpUtils.consumeAndCloseConnection(HttpUtils.java:75)
+	at net.adoptopenjdk.icedteaweb.http.HttpUtils.consumeAndCloseConnectionSilently(HttpUtils.java:62)
+	at net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber.getUrlResponseCodeWithRedirectionResult(UrlProber.java:67)
+	at net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer.testUrl(BaseResourceInitializer.java:103)
+	at net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer.lambda$null$0(BaseResourceInitializer.java:83)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ITW-CORE][2023-01-29 07:40:24.935 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/fp.jar' header fields: {null=[HTTP/1.1 404 Not Found], X-Cache=[Error from cloudfront], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], X-Amz-Cf-Id=[ZApUQTRfOyB1wj66iIB1xmLfRlIXiWpirL9pPbFcuYl9TYnDG60zRA==], Content-Length=[153], Date=[Sun, 29 Jan 2023 13:40:24 GMT], Via=[1.1 a6ee338f3d3ecb97be8107e29130eb26.cloudfront.net (CloudFront)], Content-Type=[text/html]}
+[ITW-CORE][2023-01-29 07:40:24.936 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] For [l=https://isy.universal-devices.com/994i/5.3.4/fp.jar v=null s=I] the server returned 404 code for HEAD request for https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:24.937 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] failed to determine best URL: java.util.concurrent.ExecutionException: java.lang.RuntimeException: Server returned 404 for https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:24.937 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] Failed to determine best URL for [l=https://isy.universal-devices.com/994i/5.3.4/fp.jar v=null s=I] will try all of [https://isy.universal-devices.com/994i/5.3.4/fp.jar]
+[ITW-CORE][2023-01-29 07:40:24.938 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.downloader.BaseResourceDownloader] Will download in background: https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:24.939 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:24.966 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/RXTX.jar' header fields: {null=[HTTP/1.1 200 OK], X-Cache=[Miss from cloudfront], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], Last-Modified=[Thu, 08 Jul 2021 16:49:31 GMT], Date=[Sun, 29 Jan 2023 13:40:24 GMT], Via=[1.1 8ef79748441f91fd579e2b98492c890c.cloudfront.net (CloudFront)], Accept-Ranges=[bytes], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], ETag=["60e72c9b-11055"], X-Amz-Cf-Id=[EuD5zXlkioijEariueTngkVq0J9JIGlHQGIm_DWRH0mkkWfu4KopCg==], Content-Length=[69717], Content-Type=[application/java-archive]}
+[ITW-CORE][2023-01-29 07:40:24.966 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar v=null s=I] is https://isy.universal-devices.com/994i/5.3.4/RXTX.jar by HEAD
+[ITW-CORE][2023-01-29 07:40:24.967 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar, version=null}: isCached true
+[ITW-CORE][2023-01-29 07:40:24.967 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar, version=null}: lastModified cache:1625762971000 actual:1625762971000 -> isCurrent = true
+[ITW-CORE][2023-01-29 07:40:24.967 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:24.967 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.4/RXTX.jar -> false
+[ITW-CORE][2023-01-29 07:40:24.968 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.4/RXTX.jar v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/14/RXTX.jar
+[ITW-CORE][2023-01-29 07:40:25.052 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UrlProber] URL connection 'https://isy.universal-devices.com/994i/5.3.4/chart.jar' header fields: {null=[HTTP/1.1 200 OK], X-Cache=[Miss from cloudfront], Alt-Svc=[h3=":443"; ma=86400], Server=[nginx/1.22.1], X-Amz-Cf-Pop=[DFW53-C1], Connection=[keep-alive], Last-Modified=[Thu, 08 Jul 2021 16:49:22 GMT], Date=[Sun, 29 Jan 2023 13:40:25 GMT], Via=[1.1 8977c33cefbea5ee4ef238c3bea8b848.cloudfront.net (CloudFront)], Accept-Ranges=[bytes], Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload], ETag=["60e72c92-f0b22"], X-Amz-Cf-Id=[GXQieG0fVNzHfaZPTI-91jvYoUYx-FZmiOg5FccpCsZbMNYOq53kMQ==], Content-Length=[985890], Content-Type=[application/java-archive]}
+[ITW-CORE][2023-01-29 07:40:25.052 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Best url for [l=https://isy.universal-devices.com/994i/5.3.4/chart.jar v=null s=I] is https://isy.universal-devices.com/994i/5.3.4/chart.jar by HEAD
+[ITW-CORE][2023-01-29 07:40:25.052 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.downloader.BaseResourceDownloader] Exception while downloading resource [l=https://isy.universal-devices.com/994i/5.3.4/fp.jar v=null s=I] from https://isy.universal-devices.com/994i/5.3.4/fp.jar - message: https://isy.universal-devices.com/994i/5.3.4/fp.jar cause: java.io.FileNotFoundException: https://isy.universal-devices.com/994i/5.3.4/fp.jar 
+[ITW-CORE][2023-01-29 07:40:25.052 CST][ERROR][net.adoptopenjdk.icedteaweb.resources.downloader.BaseResourceDownloader] could not download resource [l=https://isy.universal-devices.com/994i/5.3.4/fp.jar v=null s=I] from any of theses urls [https://isy.universal-devices.com/994i/5.3.4/fp.jar] caused byExecutionException: java.io.FileNotFoundException: https://isy.universal-devices.com/994i/5.3.4/fp.jar caused by FileNotFoundException: https://isy.universal-devices.com/994i/5.3.4/fp.jar caused by FileNotFoundException: https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:25.053 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/chart.jar, version=null}: isCached true
+[ITW-CORE][2023-01-29 07:40:25.053 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CachedFile] CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/chart.jar, version=null}: lastModified cache:1625762962000 actual:1625762962000 -> isCurrent = true
+[ITW-CORE][2023-01-29 07:40:25.053 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] isUpToDate: CacheKey{location=https://isy.universal-devices.com/994i/5.3.4/chart.jar, version=null} = true
+[ITW-CORE][2023-01-29 07:40:25.053 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.UnversionedResourceInitializer] needsUpdate: https://isy.universal-devices.com/994i/5.3.4/chart.jar -> false
+[ITW-CORE][2023-01-29 07:40:25.054 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.initializer.BaseResourceInitializer] Use cached version of resource [l=https://isy.universal-devices.com/994i/5.3.4/chart.jar v=null s=D] at /Users/travisll/.cache/icedtea-web/cache/0/16/chart.jar
+[ITW-CORE][2023-01-29 07:40:25.058 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/jssecacerts does not exists.
+[ITW-CORE][2023-01-29 07:40:25.058 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.058 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.059 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts exists.
+[ITW-CORE][2023-01-29 07:40:25.059 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts
+[ITW-CORE][2023-01-29 07:40:25.059 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts
+[ITW-CORE][2023-01-29 07:40:25.061 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts exists.
+[ITW-CORE][2023-01-29 07:40:25.061 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2023-01-29 07:40:25.061 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2023-01-29 07:40:25.062 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.cacerts exists.
+[ITW-CORE][2023-01-29 07:40:25.062 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2023-01-29 07:40:25.062 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.CertificateUtils] CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R3 found in cacerts (/Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts)
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.tools.JarCertVerifier] Jar found at /Users/travisll/.cache/icedtea-web/cache/0/11/insteon.jar has been verified as SIGNED_OK
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/trusted.jssecerts does not exists.
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/trusted.certs does not exists.
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.063 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecerts exists.
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecerts
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecerts
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.certs exists.
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.certs
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.certs
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.CertificateUtils] 1.2.840.113549.1.9.1=#161d737570706f727440756e6976657273616c2d646576696365732e636f6d,CN=Universal Devices Inc.,OU=ISY,O=Universal Devices Inc.,L=Encino,ST=CA,C=US found in cacerts (/Users/travisll/.config/icedtea-web/security/trusted.certs)
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/jssecacerts does not exists.
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore Unknown
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts exists.
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts
+[ITW-CORE][2023-01-29 07:40:25.064 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.cache/icedtea-web/jvm-cache/adoptium_17.0.5_aarch64/lib/security/cacerts
+[ITW-CORE][2023-01-29 07:40:25.066 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts exists.
+[ITW-CORE][2023-01-29 07:40:25.067 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2023-01-29 07:40:25.067 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.jssecacerts
+[ITW-CORE][2023-01-29 07:40:25.067 CST][DEBUG][net.sourceforge.jnlp.security.KeyStores] Keystore file /Users/travisll/.config/icedtea-web/security/trusted.cacerts exists.
+[ITW-CORE][2023-01-29 07:40:25.067 CST][DEBUG][net.sourceforge.jnlp.security.SecurityUtil] Loading Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2023-01-29 07:40:25.067 CST][DEBUG][net.sourceforge.jnlp.security.KeystorePasswordAttempter] Operating Keystore /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2023-01-29 07:40:25.068 CST][DEBUG][net.sourceforge.jnlp.tools.JarCertVerifier] App is signed: true
+[ITW-CORE][2023-01-29 07:40:25.070 CST][DEBUG][net.sourceforge.jnlp.tools.JarCertVerifier] App is signed: true
+[ITW-CORE][2023-01-29 07:40:25.071 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Ending check for signed JNLP file...
+[ITW-CORE][2023-01-29 07:40:25.071 CST][DEBUG][net.sourceforge.jnlp.tools.JarCertVerifier] App is signed: true
+[ITW-CORE][2023-01-29 07:40:25.071 CST][DEBUG][net.sourceforge.jnlp.tools.JarCertVerifier] App already has trusted publisher: true
+[ITW-CORE][2023-01-29 07:40:25.071 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.071 CST][WARN ][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] initializeResource JAR https://isy.universal-devices.com/994i/5.3.4/fp.jar not found. Continuing.
+[ITW-CORE][2023-01-29 07:40:25.096 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.099 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.100 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesChecker] Trusted Only manifest attribute not found. Continuing.
+[ITW-CORE][2023-01-29 07:40:25.108 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.113 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.114 CST][WARN ][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesChecker] This application does not specify a Codebase in its manifest. Please verify with the applet''s vendor. Continuing. See: http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/no_redeploy.html for details.
+[ITW-CORE][2023-01-29 07:40:25.116 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.118 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesChecker] OK - 'https://isy.universal-devices.com/994i/5.3.4' is from codebase 'https://isy.universal-devices.com/994i/5.3.4/'.
+[ITW-CORE][2023-01-29 07:40:25.118 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesChecker] All applications resources are from codebase https://isy.universal-devices.com/994i/5.3.4/, skipping Application-Library-Allowable-Codebase Attribute check.
+[ITW-CORE][2023-01-29 07:40:25.127 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.131 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.132 CST][DEBUG][net.adoptopenjdk.icedteaweb.manifest.ManifestAttributesChecker] Entry-Point manifest attribute for yours 'com.universaldevices.client.ui.UDClientApplet' not found. Continuing.
+[ITW-CORE][2023-01-29 07:40:25.135 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.143 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.143 CST][WARN ][net.sourceforge.jnlp.JNLPFile] Application title was not found in manifest. Check with application vendor
+[ITW-CORE][2023-01-29 07:40:25.143 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener for ISY994 Administrative Console will be created
+[ITW-CORE][2023-01-29 07:40:25.143 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:25.144 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener will be disposed
+[ITW-CORE][2023-01-29 07:40:25.146 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.147 CST][DEBUG][net.adoptopenjdk.icedteaweb.jdk89access.JarIndexAccess] sun.misc.JarIndex not found - Running jdk9+ ?
+[ITW-CORE][2023-01-29 07:40:25.155 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.161 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.162 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Activate jar: file:/Users/travisll/.cache/icedtea-web/cache/0/11/insteon.jar
+[ITW-CORE][2023-01-29 07:40:25.162 CST][INFO ][net.sourceforge.jnlp.cache.NativeLibraryStorage] Activate native: https://isy.universal-devices.com/994i/5.3.4/insteon.jar
+[ITW-CORE][2023-01-29 07:40:25.164 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Permission added: ("java.io.FilePermission" "/Users/travisll/.cache/icedtea-web/cache/0/11/insteon.jar" "read")
+[ITW-CORE][2023-01-29 07:40:25.164 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Permission added: ("java.io.FilePermission" "/Users/travisll/.cache/icedtea-web/cache/0/15/ce.jar" "read")
+[ITW-CORE][2023-01-29 07:40:25.164 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Permission added: ("java.io.FilePermission" "/Users/travisll/.cache/icedtea-web/cache/0/16/chart.jar" "read")
+[ITW-CORE][2023-01-29 07:40:25.164 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.164 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] No cache file for cacheable resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar' found.
+[ITW-CORE][2023-01-29 07:40:25.164 CST][INFO ][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Unable to add permission for https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:25.164 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Permission added: ("java.io.FilePermission" "/Users/travisll/.cache/icedtea-web/cache/0/14/RXTX.jar" "read")
+[ITW-CORE][2023-01-29 07:40:25.164 CST][INFO ][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Added permissions for 4 jars
+[ITW-CORE][2023-01-29 07:40:25.165 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.166 CST][INFO ][net.sourceforge.jnlp.Launcher] Starting application [com.universaldevices.client.ui.UDClientApplet] ...
+[ITW-CORE][2023-01-29 07:40:25.170 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.170 CST][DEBUG][net.sourceforge.jnlp.runtime.CachedJarFileCallback] Class-Path attribute cleared for /Users/travisll/.cache/icedtea-web/cache/0/11/insteon.jar
+[ITW-CORE][2023-01-29 07:40:25.175 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.181 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.204 CST][DEBUG][net.sourceforge.jnlp.Launcher] Setting net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader@2d739399 as the classloader for thread ISY994 Administrative Console
+[ITW-CORE][2023-01-29 07:40:25.204 CST][DEBUG][net.sourceforge.jnlp.Launcher] Setting net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader@2d739399 as the classloader for thread AWT-EventQueue-1
+[ITW-CORE][2023-01-29 07:40:25.204 CST][DEBUG][net.sourceforge.jnlp.Launcher] Setting net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader@2d739399 as the classloader for thread TimerQueue
+[ITW-CORE][2023-01-29 07:40:25.204 CST][DEBUG][net.sourceforge.jnlp.Launcher] Setting net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader@2d739399 as the classloader for thread ows-daemon-pool-1
+[ITW-CORE][2023-01-29 07:40:25.204 CST][DEBUG][net.sourceforge.jnlp.Launcher] Setting net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader@2d739399 as the classloader for thread ows-daemon-pool-2
+[ITW-CORE][2023-01-29 07:40:25.214 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.214 CST][WARN ][net.sourceforge.jnlp.JNLPFile] Application title was not found in manifest. Check with application vendor
+[ITW-CORE][2023-01-29 07:40:25.215 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener for ISY994 Administrative Console will be created
+[ITW-CORE][2023-01-29 07:40:25.215 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:25.215 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener will be disposed
+[ITW-CORE][2023-01-29 07:40:25.218 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Activate jar: file:/Users/travisll/.cache/icedtea-web/cache/0/15/ce.jar
+[ITW-CORE][2023-01-29 07:40:25.218 CST][INFO ][net.sourceforge.jnlp.cache.NativeLibraryStorage] Activate native: https://isy.universal-devices.com/994i/5.3.4/ce.jar
+[ITW-CORE][2023-01-29 07:40:25.219 CST][DEBUG][net.sourceforge.jnlp.runtime.CachedJarFileCallback] Class-Path attribute cleared for /Users/travisll/.cache/icedtea-web/cache/0/15/ce.jar
+[ITW-CORE][2023-01-29 07:40:25.230 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.230 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.231 CST][WARN ][net.sourceforge.jnlp.JNLPFile] Application title was not found in manifest. Check with application vendor
+[ITW-CORE][2023-01-29 07:40:25.231 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener for ISY994 Administrative Console will be created
+[ITW-CORE][2023-01-29 07:40:25.231 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:25.231 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener will be disposed
+[ITW-CORE][2023-01-29 07:40:25.234 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.236 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Activate jar: file:/Users/travisll/.cache/icedtea-web/cache/0/16/chart.jar
+[ITW-CORE][2023-01-29 07:40:25.236 CST][INFO ][net.sourceforge.jnlp.cache.NativeLibraryStorage] Activate native: https://isy.universal-devices.com/994i/5.3.4/chart.jar
+[ITW-CORE][2023-01-29 07:40:25.238 CST][DEBUG][net.sourceforge.jnlp.runtime.CachedJarFileCallback] Class-Path attribute cleared for /Users/travisll/.cache/icedtea-web/cache/0/16/chart.jar
+[ITW-CORE][2023-01-29 07:40:25.240 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.242 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.242 CST][WARN ][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] checkForMain JAR https://isy.universal-devices.com/994i/5.3.4/fp.jar not found. Continuing.
+[ITW-CORE][2023-01-29 07:40:25.249 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.249 CST][WARN ][net.sourceforge.jnlp.JNLPFile] Application title was not found in manifest. Check with application vendor
+[ITW-CORE][2023-01-29 07:40:25.249 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener for ISY994 Administrative Console will be created
+[ITW-CORE][2023-01-29 07:40:25.249 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:25.250 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener will be disposed
+[ITW-CORE][2023-01-29 07:40:25.250 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.250 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Activate jar: https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:25.250 CST][INFO ][net.sourceforge.jnlp.cache.NativeLibraryStorage] Activate native: https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:25.250 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.250 CST][DEBUG][net.sourceforge.jnlp.cache.NativeLibraryStorage] No local file found for https://isy.universal-devices.com/994i/5.3.4/fp.jar
+[ITW-CORE][2023-01-29 07:40:25.250 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.258 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Error flag set for resource 'https://isy.universal-devices.com/994i/5.3.4/fp.jar'. Can not return a local file for the resource
+[ITW-CORE][2023-01-29 07:40:25.258 CST][WARN ][net.sourceforge.jnlp.JNLPFile] Application title was not found in manifest. Check with application vendor
+[ITW-CORE][2023-01-29 07:40:25.258 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener for ISY994 Administrative Console will be created
+[ITW-CORE][2023-01-29 07:40:25.258 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.ResourceTracker] Download done. Shutting down executor
+[ITW-CORE][2023-01-29 07:40:25.259 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] DownloadServiceListener will be disposed
+[ITW-CORE][2023-01-29 07:40:25.259 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.261 CST][DEBUG][net.sourceforge.jnlp.runtime.classloader.JNLPClassLoader] Activate jar: file:/Users/travisll/.cache/icedtea-web/cache/0/14/RXTX.jar
+[ITW-CORE][2023-01-29 07:40:25.262 CST][INFO ][net.sourceforge.jnlp.cache.NativeLibraryStorage] Activate native: https://isy.universal-devices.com/994i/5.3.4/RXTX.jar
+[ITW-CORE][2023-01-29 07:40:25.262 CST][DEBUG][net.sourceforge.jnlp.runtime.CachedJarFileCallback] Class-Path attribute cleared for /Users/travisll/.cache/icedtea-web/cache/0/14/RXTX.jar
+[ITW-CORE][2023-01-29 07:40:25.264 CST][INFO ][net.sourceforge.jnlp.Launcher] Invoking main() with args: [urn:udi-com:device:X_Insteon_Lighting_Device:1]
+[ITW-CORE][2023-01-29 07:40:25.265 CST][INFO ][net.sourceforge.jnlp.Launcher] main completed
+[ITW-CORE][2023-01-29 07:40:25.265 CST][DEBUG][net.sourceforge.jnlp.runtime.Boot] Exiting Boot.mainWithReturnCode() with 0
+[ITW-CORE][2023-01-29 07:40:25.266 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.271 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.278 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.279 CST][DEBUG][net.sourceforge.jnlp.runtime.CachedJarFileCallback] Class-Path attribute cleared for /Users/travisll/.cache/icedtea-web/cache/0/11/insteon.jar
+[ITW-CORE][2023-01-29 07:40:25.298 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.302 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.307 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.311 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.315 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.319 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:25.323 CST][DEBUG][net.sourceforge.jnlp.util.logging.UnixSystemLog] System logger called with result of 0
+[ITW-CORE][2023-01-29 07:40:26.690 CST][DEBUG][com.openwebstart.download.ApplicationDownloadIndicator] Closing DownloadServiceListener
+[ITW-CORE][2023-01-29 07:40:38.948 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://www.universal-devices.com/auto_update/updates_config
+[ITW-CORE][2023-01-29 07:40:38.949 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for socket://www.universal-devices.com:443
+[ITW-CORE][2023-01-29 07:40:39.133 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://www.universal-devices.com/auto_update/prod-updates.xml
+[ITW-CORE][2023-01-29 07:40:39.224 CST][DEBUG][com.openwebstart.proxy.direct.DirectProxyProvider] Using NO_PROXY for https://www.universal-devices.com/sales/modules/status?uuid=uuid:00:21:b9:02:19:fc
+[ITW-CORE][2023-01-29 07:40:49.982 CST][DEBUG][net.sourceforge.jnlp.runtime.CachedJarFileCallback] Class-Path attribute cleared for /Users/travisll/.cache/icedtea-web/cache/0/15/ce.jar
+[ITW-CORE][2023-01-30 06:35:41.775 CST][INFO ][net.sourceforge.jnlp.util.logging.OutputController] Increase polling interval for shutdown phase
+[ITW-CORE][2023-01-30 06:35:41.775 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Releasing shared lock on /var/folders/qv/zd44h42s6h5fj4q235rr1_3wzgxmhk/T/travisll/netx/locks/netx_running
+[ITW-CORE][2023-01-30 06:35:41.775 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Closing channel
+[ITW-CORE][2023-01-30 06:35:41.775 CST][DEBUG][net.sourceforge.jnlp.runtime.JNLPRuntime] Releasing done
+[ITW-CORE][2023-01-30 06:35:41.775 CST][DEBUG][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] preparing to cleanup the cache
+[ITW-CORE][2023-01-30 06:35:41.776 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] Other instances of javaws are running
+[ITW-CORE][2023-01-30 06:35:41.776 CST][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] Cannot clear the cache at this time. Try later. If the problem persists, try closing your browser(s) & JNLP applications. At the end you can try to kill all java applications. You can clear cache by javaws -Xclearcache or via itw-settings Cache -> View files -> Purge

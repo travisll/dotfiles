@@ -1,0 +1,21 @@
+[travisll][ITW-CORE][2022-08-21 09:56:58.098 CDT][INFO ][net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog][Output controller consumer daemon#56b986db] writer-based impl.
+[ITW-CORE][2022-08-21 09:56:57.984 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OpenWebStartLauncher called with args: [].
+[ITW-CORE][2022-08-21 09:56:57.984 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OS: Mac OS X
+[ITW-CORE][2022-08-21 09:56:57.984 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] Java Runtime BellSoft-1.8.0_332
+[ITW-CORE][2022-08-21 09:56:58.029 CDT][INFO ][com.openwebstart.launcher.ControlPanelLauncher] Starting OpenWebStart ControlPanel 1.6.0
+[ITW-CORE][2022-08-21 09:56:58.057 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-08-21 09:56:58.077 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-08-21 09:56:58.078 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:56:58.097 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:56:58.144 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] Checking for update on server https://download-openwebstart.com/updates/updates.xml
+[ITW-APP ][2022-08-21 09:56:58.535 CDT][ERROR][sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)] Warning: the fonts "Times" and "Lucida Bright" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+[ITW-CORE][2022-08-21 09:56:58.682 CDT][INFO ][net.adoptopenjdk.icedteaweb.client.certificateviewer.CertificatePane] /Users/travisll/.config/icedtea-web/security/trusted.cacerts
+[ITW-CORE][2022-08-21 09:56:58.714 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] Checking for update on server https://download-openwebstart.com/updates/updates.xml
+[ITW-CORE][2022-08-21 09:56:58.930 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] No update found on server
+[ITW-CORE][2022-08-21 09:58:40.034 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Saving properties into /Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:58:40.046 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Saving properties into /Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:58:40.771 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] Checking for update on server https://download-openwebstart.com/updates/updates.xml
+[ITW-CORE][2022-08-21 09:58:41.351 CDT][INFO ][com.openwebstart.install4j.Install4JUpdateHandler] No update found on server
+[ITW-CORE][2022-08-21 09:58:43.968 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Saving properties into /Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:58:44.796 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Saving properties into /Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:58:44.804 CDT][INFO ][net.sourceforge.jnlp.util.logging.OutputController] Increase polling interval for shutdown phase

@@ -1,0 +1,124 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "060dd101-62dd-4c08-88fc-f9b55cd27747",
+        "filter": "author:travisll",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "travisll"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "865b8790-73e4-4091-a989-a3af91434a38",
+        "filter": "assignee:travisll",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "travisll"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a31ec575-5329-4129-b43d-3dbc711124f9",
+        "filter": "review-requested:travisll",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "travisll"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8ba28547-a926-48c4-92f0-cc4f46b015b2",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteParents": {
+    "github": {
+      "travisll": {
+        "ObsidianWork": {
+          "hostingServiceType": "github",
+          "owner": "travisll",
+          "name": "ObsidianWork"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "2ef23060d55c7bafdb8f8930217d73c9c43ce43a",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "2ef23060d55c7bafdb8f8930217d73c9c43ce43a",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "expandedSections": [
+    "REMOTE",
+    "GITHUB_ACTIONS",
+    "LOCAL"
+  ],
+  "collapsedRemotes": []
+}

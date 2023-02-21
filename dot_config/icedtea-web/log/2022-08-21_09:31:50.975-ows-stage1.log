@@ -1,0 +1,29 @@
+[travisll][ITW-CORE][2022-08-21 09:31:51.141 CDT][INFO ][net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog][Output controller consumer daemon#d5837ae] writer-based impl.
+[ITW-CORE][2022-08-21 09:31:51.021 CDT][INFO ][com.openwebstart.launcher.PhaseTwoWebStartLauncher] Starting OpenWebStart 1.6.0
+[ITW-CORE][2022-08-21 09:31:51.113 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-08-21 09:31:51.129 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
+[ITW-CORE][2022-08-21 09:31:51.130 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:31:51.140 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
+[ITW-CORE][2022-08-21 09:31:51.175 CDT][INFO ][com.openwebstart.launcher.PhaseTwoWebStartLauncher] Calling ITW Boot with args [/Users/travisll/Downloads/launch-2.jnlp].
+[ITW-CORE][2022-08-21 09:31:51.176 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OpenWebStartLauncher called with args: [/Users/travisll/Downloads/launch-2.jnlp].
+[ITW-CORE][2022-08-21 09:31:51.176 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OS: Mac OS X
+[ITW-CORE][2022-08-21 09:31:51.176 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] Java Runtime BellSoft-1.8.0_332
+[ITW-APP ][2022-08-21 09:31:51.477 CDT][ERROR][sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)] Warning: the fonts "Times" and "Lucida Bright" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+[ITW-CORE][2022-08-21 09:31:51.725 CDT][INFO ][net.sourceforge.jnlp.runtime.Boot] Proceeding with jnlp
+[ITW-CORE][2022-08-21 09:31:51.727 CDT][INFO ][net.sourceforge.jnlp.runtime.Boot] JNLP file location: /Users/travisll/Downloads/launch-2.jnlp
+[ITW-CORE][2022-08-21 09:31:51.737 CDT][INFO ][net.adoptopenjdk.icedteaweb.xmlparser.MalformedXMLParser] Using MalformedXMLParser
+[ITW-CORE][2022-08-21 09:31:51.972 CDT][INFO ][net.sourceforge.jnlp.Parser] Homepage: null
+[ITW-CORE][2022-08-21 09:31:51.972 CDT][INFO ][net.sourceforge.jnlp.Parser] Description: Java Web Start Application
+[ITW-CORE][2022-08-21 09:31:51.972 CDT][INFO ][net.sourceforge.jnlp.JNLPFile] Acceptable vendor tag found, contains: ATEN
+[ITW-CORE][2022-08-21 09:31:51.974 CDT][INFO ][net.sourceforge.jnlp.Parser] good - your JRE - 1.8.0_332 - match requested JRE - 1.6.0+
+[ITW-CORE][2022-08-21 09:31:51.979 CDT][INFO ][net.adoptopenjdk.icedteaweb.xmlparser.MalformedXMLParser] Using MalformedXMLParser
+[ITW-CORE][2022-08-21 09:31:51.982 CDT][INFO ][net.sourceforge.jnlp.Parser] Homepage: null
+[ITW-CORE][2022-08-21 09:31:51.982 CDT][INFO ][net.sourceforge.jnlp.Parser] Description: Java Web Start Application
+[ITW-CORE][2022-08-21 09:31:51.982 CDT][INFO ][net.sourceforge.jnlp.JNLPFile] Acceptable vendor tag found, contains: ATEN
+[ITW-CORE][2022-08-21 09:31:51.982 CDT][INFO ][net.sourceforge.jnlp.Parser] good - your JRE - 1.8.0_332 - match requested JRE - 1.6.0+
+[ITW-CORE][2022-08-21 09:31:52.709 CDT][INFO ][com.openwebstart.launcher.OwsJvmLauncher] using java runtime at '/Library/Java/JavaVirtualMachines/zulu-18.jdk/Contents/Home' for launching managed application
+[ITW-CORE][2022-08-21 09:31:52.718 CDT][INFO ][com.openwebstart.launcher.OwsJvmLauncher] About to launch process with command:
+/Library/Java/JavaVirtualMachines/zulu-18.jdk/Contents/Home/bin/java -Xbootclasspath/a:/Applications/OpenWebStart/openwebstart.jar -Xms128M -Xmx128M -XX:PermSize=32M -XX:MaxPermSize=32M -Djnlp.packEnabled=true --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED,java.desktop --add-exports=java.base/jdk.internal.util.jar=ALL-UNNAMED,java.desktop --add-exports=java.base/com.sun.net.ssl.internal.ssl=ALL-UNNAMED,java.desktop --add-reads=java.naming=ALL-UNNAMED,java.desktop --add-exports=java.desktop/sun.awt.X11=ALL-UNNAMED,java.desktop --add-exports=java.desktop/sun.applet=ALL-UNNAMED,java.desktop,jdk.jsobject --add-exports=java.base/sun.security.action=ALL-UNNAMED,java.desktop --add-reads=java.base=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED,java.desktop --add-exports=java.naming/com.sun.jndi.toolkit.url=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.util=ALL-UNNAMED,java.desktop --add-reads=java.desktop=ALL-UNNAMED,java.naming --add-exports=java.desktop/sun.awt=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.x509=ALL-UNNAMED,java.desktop --add-exports=java.desktop/javax.jnlp=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.provider=ALL-UNNAMED,java.desktop --add-exports=java.base/sun.security.validator=ALL-UNNAMED,java.desktop net.sourceforge.jnlp.runtime.Boot -Xnofork /Users/travisll/Downloads/launch-2.jnlp
+[ITW-CORE][2022-08-21 09:31:52.763 CDT][INFO ][net.sourceforge.jnlp.util.logging.OutputController] Increase polling interval for shutdown phase
+[ITW-CORE][2022-08-21 09:31:52.765 CDT][INFO ][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] No other instances of javaws are running
+[ITW-CORE][2022-08-21 09:31:52.765 CDT][ERROR][net.adoptopenjdk.icedteaweb.resources.cache.CacheImpl] Cannot clear the cache as there exists no such directory /Users/travisll/.cache/icedtea-web/cache

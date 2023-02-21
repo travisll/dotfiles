@@ -1,0 +1,8 @@
+[2022-09-15T13:22:16.715Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T13:46:17.301Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T14:22:48.289Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T14:23:47.948Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T14:24:47.945Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T14:25:47.946Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T15:33:28.755Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known
+[2022-09-15T15:34:37.181Z] Fetch remote origin: failed to resolve address for github.com: nodename nor servname provided, or not known

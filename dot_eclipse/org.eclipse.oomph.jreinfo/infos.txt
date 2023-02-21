@@ -1,0 +1,6 @@
+/Users/travisll/.asdf/installs/java/zulu-javafx-18.32.13:18:0:2:64:true:1661816376000:aarch64
+/Users/travisll/.asdf/installs/java/openjdk-17.0.2:17:0:2:64:true:1638923080000:aarch64
+/Users/travisll/.asdf/installs/java/adoptopenjdk-17.0.4+101:17:0:4:64:true:1660716830000:aarch64
+/opt/homebrew/Cellar/openjdk/19/libexec/openjdk.jdk/Contents/Home:19:0:0:64:true:1660335893000:aarch64
+/Library/Java/JavaVirtualMachines/zulu-19.jdk/Contents/Home:19:0:0:64:true:1663320034000:aarch64
+/Users/travisll/.asdf/installs/java/microsoft-17.0.4:17:0:4:64:true:1658344136561:aarch64

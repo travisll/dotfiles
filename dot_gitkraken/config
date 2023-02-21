@@ -1,0 +1,111 @@
+{
+  "lastUpgradeScriptRun": "v8.6.0",
+  "appId": "9905aba9cac6e6901b604b7377c1f0092e8c051a",
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "8.7.0",
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "suspiciousSshKeys": [],
+  "registration": {
+    "email": "travisll@comfedcu.org",
+    "name": "Travis Llewellyn",
+    "status": "activated",
+    "loginType": "username_and_password",
+    "date": "2022-08-04T11:50:34.133Z",
+    "EULA": {
+      "version": "8.3.1",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "b12b3ed7-6bb5-4ba1-a9d4-dfd315eabdaa",
+  "licensedFeatures": [
+    "enterprise"
+  ],
+  "userFeatures": [
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "glo"
+    },
+    {
+      "name": "timelines"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "gitBash"
+    }
+  ],
+  "hasSeenNewUserOnboarding": true,
+  "commits": {
+    "maxCommitsInGraph": 2000
+  },
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/travisll/Library/Mobile Documents/iCloud~md~obsidian/Documents/Work": {
+          "id": "openRepo-/Users/travisll/Library/Mobile Documents/iCloud~md~obsidian/Documents/Work",
+          "timestamps": [
+            1659613972275
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/travisll/programming/xLights": {
+          "id": "openRepo-/Users/travisll/programming/xLights",
+          "timestamps": [
+            1663245809794
+          ],
+          "total": 1
+        }
+      }
+    }
+  },
+  "repoDeepLinkMap": {
+    "fe998e817a9492003da7fe1cd4dda4efaa42b4eb": {
+      "paths": [
+        "/Users/travisll/Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/"
+      ],
+      "pullUrls": {
+        "https://github.com/travisll/ObsidianWork.git": {
+          "paths": [
+            "/Users/travisll/Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/"
+          ],
+          "name": "ObsidianWork",
+          "hostName": "github.com",
+          "owner": "travisll",
+          "hostingServiceType": "github"
+        }
+      }
+    },
+    "50fd852ab4aae74aba40c13e30b6583d99d1513b": {
+      "paths": [
+        "/Users/travisll/programming/xLights/"
+      ],
+      "pullUrls": {
+        "https://github.com/smeighan/xLights.git": {
+          "paths": [
+            "/Users/travisll/programming/xLights/"
+          ],
+          "name": "xLights",
+          "hostName": "github.com",
+          "owner": "smeighan",
+          "hostingServiceType": "github"
+        }
+      }
+    }
+  },
+  "windowSettings": {
+    "fullScreen": false,
+    "maximized": true
+  }
+}

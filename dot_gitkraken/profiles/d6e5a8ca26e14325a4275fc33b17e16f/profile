@@ -1,0 +1,35 @@
+{
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null,
+        "closed": false
+      }
+    },
+    "selectedTabId": "4676599d-cbe0-4333-bdcc-0a7a37a42270",
+    "tabs": [
+      {
+        "id": "4676599d-cbe0-4333-bdcc-0a7a37a42270",
+        "type": "NEW"
+      }
+    ]
+  },
+  "profileIcon": "gravatar",
+  "profileName": "Travis",
+  "userEmail": "travisll@travisandtrish.com",
+  "userName": "Travis Llewellyn",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "cli": {
+    "fontFamily": "Monaco"
+  },
+  "organizationId": "61ee980e69e89c00453a66e2",
+  "projectGroupNamesByDirectory": {
+    "/Users/travisll/programming/xLights": "xLights"
+  }
+}
