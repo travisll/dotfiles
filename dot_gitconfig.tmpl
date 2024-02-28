@@ -1,10 +1,11 @@
 [user]
 	name = Travis Llewellyn
-	email = travisll@travisandtrish.com
+	email = "{{ .email }}"
 [credential]
-	helper = osxkeychain
+	helper = !git-credential-1password
 [core]
 	excludesfile = /Users/travisll/.gitignore
+	editor = subl -n -w
 [alias]
   co = checkout                     # git co my-branch
   po = pull origin                  # git po my-branch
@@ -16,3 +17,8 @@
                                     # git hist
   dns = diff --ignore-space-change  # git dns (dns stands for diff no space)
   dc = diff --cached                # git dc
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

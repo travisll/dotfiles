@@ -1,76 +1,124 @@
-{{- if eq .location "work" }}
-brew "go"
-{{- end }}
+# Install these on Home
+{{- if eq .location "home" }}
 tap "gcenx/wine"
+{{- end }}
+{{- if eq .location "work" }}
+mas "Yubico Authenticator", id: 1497506650
+{{- end }}
+
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "macos-fuse-t/cask"
+tap "microsoft/mssql-release"
 brew "act"
-brew "xz"
-brew "zstd"
-brew "automake"
-brew "coreutils"
 brew "openssl@3"
 brew "readline"
-brew "asdf"
-brew "bison"
-brew "brew-cask-completion"
+brew "xz"
+brew "afflib"
 brew "glib"
+brew "zstd"
+brew "openjdk"
+brew "ant"
+brew "automake"
+brew "coreutils"
+brew "libtool"
+brew "asdf"
+brew "atuin"
+brew "krb5"
+brew "libewf"
+brew "libpq"
+brew "autopsy"
+brew "python@3.11"
+brew "awscli"
+brew "azure-cli"
+brew "bison"
+brew "blueutil"
+brew "brew-cask-completion"
+brew "cask"
 brew "ccache"
 brew "chezmoi"
 brew "chruby"
+brew "fish"
+brew "chruby-fish"
+brew "cli53"
+brew "cmake"
 brew "exa"
+brew "eza"
+brew "gcc"
+brew "leptonica"
 brew "sdl2"
+brew "tesseract"
 brew "ffmpeg"
 brew "findutils"
-brew "fish"
 brew "fnm"
-brew "gcc"
+brew "freetds"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "graphicsmagick"
-brew "httpd", restart_service: true
+brew "taglib"
+brew "gstreamer"
+brew "helm"
+brew "httpd"
+brew "libheif"
+brew "imagemagick"
 brew "jq"
 brew "jsoncpp"
 brew "kubernetes-cli"
+brew "libffi"
 brew "libhttpserver"
 brew "make"
 brew "mas"
 brew "mosquitto"
 brew "zlib"
 brew "mysql"
+brew "nasm"
 brew "nmap"
 brew "nodenv"
 brew "octant"
-brew "openjdk"
-brew "sqlite"
+brew "openjdk@17"
 brew "php"
+brew "pinentry-mac"
 brew "pipenv"
 brew "postgresql@14"
+brew "postgresql@15"
+brew "pyenv"
+brew "python@3.10"
 brew "redis"
 brew "ruby"
 brew "ruby-install"
+brew "rust"
 brew "ssh-copy-id"
 brew "starship"
-brew "taglib"
+brew "testdisk"
+brew "tmux"
+brew "u-boot-tools"
 brew "wget"
+brew "wireshark", link: false
 brew "yarn"
+brew "ykman"
+brew "ykpers"
 brew "youtube-dl"
+brew "yt-dlp"
+brew "hashicorp/tap/packer"
 brew "hashicorp/tap/terraform"
 brew "heroku/brew/heroku"
-cask "1password"
+brew "microsoft/mssql-release/msodbcsql18"
+brew "microsoft/mssql-release/mssql-tools18"
 cask "alfred"
+cask "amethyst"
 cask "apache-directory-studio"
 cask "applepi-baker"
 cask "azure-data-studio-insiders"
 cask "bartender"
 cask "beyond-compare"
+cask "calibre"
 cask "caret"
 cask "cyberduck"
 cask "daisydisk"
@@ -80,6 +128,7 @@ cask "discord"
 cask "docker"
 cask "dotnet-sdk"
 cask "dropbox"
+cask "eclipse-java"
 cask "fig"
 cask "firefox"
 cask "font-fira-code-nerd-font"
@@ -87,35 +136,45 @@ cask "font-inconsolata-go-nerd-font"
 cask "font-inconsolata-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
 cask "forklift"
+cask "fuse-t"
+cask "fuse-t-sshfs"
+cask "gimp"
 cask "gitkraken"
 cask "google-chrome"
 cask "google-drive"
+cask "hazel"
 cask "iterm2"
 cask "keyboard-maestro"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "microsoft-office"
 cask "microsoft-teams"
+cask "moom"
 cask "obsidian"
+cask "omnidisksweeper"
+cask "omnigraffle"
 cask "openwebstart"
 cask "parallels"
 cask "powershell"
+cask "qlmarkdown"
+cask "rectangle"
 cask "slack"
 cask "sourcetree"
 cask "steam"
 cask "sublime-text"
+cask "swish"
 cask "the-unarchiver"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 cask "vlc"
-cask "wine-crossover"
 cask "wireshark"
 cask "xquartz"
 cask "zulu"
 mas "1Password for Safari", id: 1569813296
 mas "Apple Configurator", id: 1037126344
 mas "ASUS Device Discovery", id: 995124504
+mas "Cityscapes", id: 1631153096
 mas "Controller", id: 1198176727
 mas "Day One", id: 1055511498
 mas "Developer", id: 640199958
@@ -123,6 +182,8 @@ mas "Discovery", id: 1381004916
 mas "Drafts", id: 1435957248
 mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "Fiery Feeds", id: 1158763303
+mas "FPPMon", id: 6445864655
+mas "GarageBand", id: 682658836
 mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Grammarly for Safari", id: 1462114288
 mas "Grocy Mobile", id: 1567803209
@@ -133,14 +194,15 @@ mas "iMovie", id: 408981434
 mas "Instapaper Save", id: 1481302432
 mas "Kerberos Ticket Autorenewal", id: 1246781916
 mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
+mas "Kindle Classic", id: 405399194
 mas "Kingdom Rush Vengeance+", id: 1610130712
 mas "LG Screen Manager", id: 1142051783
+mas "Magnet", id: 441258766
+mas "Mattermost", id: 1614666244
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "MQTT Explorer", id: 1455214828
 mas "Numbers", id: 409203825
-mas "OmniGraffle", id: 1142578753
 mas "OneDrive", id: 823766827
 mas "Outlanders", id: 1468558187
 mas "Pages", id: 409201541
@@ -150,8 +212,42 @@ mas "SongPop Party", id: 1551639567
 mas "Speedtest", id: 1153157709
 mas "TestFlight", id: 899247664
 mas "Things", id: 904280696
+mas "Trello", id: 1278508951
+mas "Userscripts-Mac-App", id: 1463298887
 mas "VI Monitor", id: 909932045
 mas "VMware Remote Console", id: 1230249825
 mas "Xcode", id: 497799835
-mas "xLights", id: 1137297689
 mas "xLights Tools", id: 1562578750
+vscode "brpaz.vscode-obsidianmd"
+vscode "donjayamanne.githistory"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "github.vscode-pull-request-github"
+vscode "hashicorp.terraform"
+vscode "humao.rest-client"
+vscode "mhutchie.git-graph"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-mssql.data-workspace-vscode"
+vscode "ms-mssql.mssql"
+vscode "ms-mssql.sql-bindings-vscode"
+vscode "ms-mssql.sql-database-projects-vscode"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.powershell"
+vscode "ms-vscode.remote-explorer"
+vscode "mtxr.sqltools"
+vscode "redhat.vscode-yaml"
+vscode "rprouse.theme-obsidian"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscode-icons-team.vscode-icons"
+vscode "yzhang.markdown-all-in-one"
+
+
+
