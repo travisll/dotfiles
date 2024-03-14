@@ -1,7 +1,0 @@
-[travisll][ITW-CORE][2022-08-21 09:55:57.326 CDT][INFO ][net.sourceforge.jnlp.util.logging.filelogs.WriterBasedFileLog][Output controller consumer daemon#170d2674] writer-based impl.
-[ITW-CORE][2022-08-21 09:55:56.883 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OpenWebStartLauncher called with args: [-Xnofork, /Users/travisll/Downloads/launch.jnlp].
-[ITW-CORE][2022-08-21 09:55:56.883 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] OS: Mac OS X
-[ITW-CORE][2022-08-21 09:55:56.883 CDT][INFO ][net.sourceforge.jnlp.runtime.EnvironmentPrinter] Java Runtime Azul Systems, Inc.-18.0.2
-[ITW-CORE][2022-08-21 09:55:57.264 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Ico provider registered correctly.
-[ITW-CORE][2022-08-21 09:55:57.272 CDT][INFO ][net.sourceforge.jnlp.config.DeploymentConfiguration] Loading USER level properties from: file:/Users/travisll/.config/icedtea-web/deployment.properties
-[ITW-CORE][2022-08-21 09:55:57.883 CDT][INFO ][net.sourceforge.jnlp.util.logging.OutputController] Increase polling interval for shutdown phase

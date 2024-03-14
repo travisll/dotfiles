@@ -1,6 +1,0 @@
-ConnMethod=tcp
-ConnTime=2021-01-29T02:21:42.391Z
-Host=homeassistant.local:5900
-RelativePtr=0
-Sequence="2"
-Uuid=84876da6-8867-46c8-a8d7-9c42fced3399
