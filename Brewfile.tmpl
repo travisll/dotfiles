@@ -1,21 +1,18 @@
-# Install these on Home
+# Install these on home machines only
 {{- if eq .location "home" }}
 tap "gcenx/wine"
-{{- end }}
-{{- if eq .location "work" }}
-mas "Yubico Authenticator", id: 1497506650
 {{- end }}
 
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "macos-fuse-t/cask"
 tap "microsoft/mssql-release"
+tap "buo/cask-upgrade"
+brew "mas"
 brew "act"
 brew "openssl@3"
 brew "readline"
@@ -65,7 +62,7 @@ brew "graphicsmagick"
 brew "taglib"
 brew "gstreamer"
 brew "helm"
-brew "httpd"
+brew "httpd", restart_service: true
 brew "libheif"
 brew "imagemagick"
 brew "jq"
@@ -74,7 +71,6 @@ brew "kubernetes-cli"
 brew "libffi"
 brew "libhttpserver"
 brew "make"
-brew "mas"
 brew "mosquitto"
 brew "zlib"
 brew "mysql"
@@ -86,7 +82,6 @@ brew "openjdk@17"
 brew "php"
 brew "pinentry-mac"
 brew "pipenv"
-brew "postgresql@14"
 brew "postgresql@15"
 brew "pyenv"
 brew "python@3.10"
@@ -129,6 +124,7 @@ cask "docker"
 cask "dotnet-sdk"
 cask "dropbox"
 cask "eclipse-java"
+cask "energiza"
 cask "fig"
 cask "firefox"
 cask "font-fira-code-nerd-font"
@@ -168,6 +164,7 @@ cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 cask "vlc"
+cask "wezterm"
 cask "wireshark"
 cask "xquartz"
 cask "zulu"
@@ -177,6 +174,7 @@ mas "ASUS Device Discovery", id: 995124504
 mas "Cityscapes", id: 1631153096
 mas "Controller", id: 1198176727
 mas "Day One", id: 1055511498
+mas "Day Progress", id: 6450280202
 mas "Developer", id: 640199958
 mas "Discovery", id: 1381004916
 mas "Drafts", id: 1435957248
@@ -218,6 +216,8 @@ mas "VI Monitor", id: 909932045
 mas "VMware Remote Console", id: 1230249825
 mas "Xcode", id: 497799835
 mas "xLights Tools", id: 1562578750
+mas "yFi", id: 1526841848
+mas "Yubico Authenticator", id: 1497506650
 vscode "brpaz.vscode-obsidianmd"
 vscode "donjayamanne.githistory"
 vscode "eamodio.gitlens"
@@ -248,6 +248,3 @@ vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscode-icons-team.vscode-icons"
 vscode "yzhang.markdown-all-in-one"
-
-
-
